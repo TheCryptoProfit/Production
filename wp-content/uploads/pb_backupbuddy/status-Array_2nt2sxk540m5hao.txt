@@ -1,0 +1,1 @@
+PHP_ERROR Error #32893. Fatal PHP error encountered:type => 1; message => Allowed memory size of 268435456 bytes exhausted (tried to allocate 11231240720 bytes); file => /var/www/html/wordpress/wp-includes/class-phpmailer.php; line => 2704; .

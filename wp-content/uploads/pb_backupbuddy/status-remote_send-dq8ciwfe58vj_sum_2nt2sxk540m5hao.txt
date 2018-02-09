@@ -1,0 +1,22 @@
+{"event":"details","time":1517853542,"u":"64","run":"1.32","mem":"56.20","data":"----- Initiating master send function for BackupBuddy v6.5.0.16. Post-send deletion: "}
+{"event":"details","time":1517853542,"u":"64","run":"1.32","mem":"56.20","data":"Created fileoptions lock file `\/var\/www\/html\/wordpress\/wp-content\/uploads\/pb_backupbuddy\/fileoptions\/send-dq8ciwfe58vj.txt.lock` with ID: 5a789b669c6b97.77919232."}
+{"event":"details","time":1517853542,"u":"64","run":"1.32","mem":"56.20","data":"Fileoptions saved. 888 bytes written."}
+{"event":"details","time":1517853542,"u":"64","run":"1.32","mem":"56.20","data":"Initializing destination."}
+{"event":"details","time":1517853542,"u":"64","run":"1.32","mem":"56.20","data":"Loading destination init file `\/var\/www\/html\/wordpress\/wp-content\/plugins\/backupbuddy\/destinations\/email\/init.php`."}
+{"event":"details","time":1517853542,"u":"64","run":"1.32","mem":"56.20","data":"Destination init loaded."}
+{"event":"details","time":1517853542,"u":"64","run":"1.32","mem":"56.20","data":"Initialized `email` destination."}
+{"event":"details","time":1517853542,"u":"64","run":"1.32","mem":"56.20","data":"Applying destination-specific defaults."}
+{"event":"details","time":1517853542,"u":"64","run":"1.32","mem":"56.20","data":"Applying global destination defaults."}
+{"event":"details","time":1517853542,"u":"64","run":"1.32","mem":"56.20","data":"Calling destination-specific send method."}
+{"event":"details","time":1517853542,"u":"64","run":"1.32","mem":"56.20","data":"Sending remote email."}
+{"event":"details","time":1517991861,"u":"44","run":"0.62","mem":"51.60","data":"----- Initiating master send function for BackupBuddy v6.5.0.16. Post-send deletion: "}
+{"event":"details","time":1517991861,"u":"44","run":"0.62","mem":"51.60","data":"Created fileoptions lock file `\/var\/www\/html\/wordpress\/wp-content\/uploads\/pb_backupbuddy\/fileoptions\/send-dq8ciwfe58vj.txt.lock` with ID: 5a7ab7b56d5217.09059804."}
+{"event":"details","time":1517991861,"u":"44","run":"0.62","mem":"51.60","data":"~~~ This is RETRY attempt #1 of a previous failed send step potentially due to timeout. ~~~"}
+{"event":"details","time":1517991861,"u":"44","run":"0.62","mem":"51.60","data":"Fileoptions saved. 888 bytes written."}
+{"event":"details","time":1517991861,"u":"44","run":"0.62","mem":"51.60","data":"Initializing destination."}
+{"event":"details","time":1517991861,"u":"44","run":"0.62","mem":"51.60","data":"Loading destination init file `\/var\/www\/html\/wordpress\/wp-content\/plugins\/backupbuddy\/destinations\/email\/init.php`."}
+{"event":"details","time":1517991861,"u":"44","run":"0.62","mem":"51.60","data":"Destination init loaded."}
+{"event":"details","time":1517991861,"u":"44","run":"0.62","mem":"51.60","data":"Initialized `email` destination."}
+{"event":"details","time":1517991861,"u":"44","run":"0.62","mem":"51.60","data":"Applying destination-specific defaults."}
+{"event":"details","time":1517991861,"u":"44","run":"0.62","mem":"51.60","data":"Applying global destination defaults."}
+{"event":"error","time":1517991861,"u":"44","run":"0.62","mem":"51.60","data":"Error #58459458743. The file that was attempted to be sent to a remote destination, `\/var\/www\/html\/wordpress\/wp-content\/uploads\/backupbuddy_backups\/backup-www_thecryptoprofit_com-2018_02_05-05_43pm-complete_backup_full-qc5p04bmpi.zip`, was not found. It either does not exist or permissions prevent accessing it. Check that local backup limits are not causing it to be deleted."}

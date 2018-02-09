@@ -1,0 +1,6 @@
+/* Do not modify this file directly. It is compiled from other files. */
+// Originally based on https://raw.githubusercontent.com/xwp/wp-custom-scss-demo/master/custom-scss-demo-preview.js
+/* globals jpCustomizerCssPreview */
+!function(e,s){e.settingPreviewHandlers?e.settingPreviewHandlers.custom_css=function(){}:parent.console.warn("Missing core patch that adds support for settingPreviewHandlers"),e.selectiveRefresh.partialConstructor.custom_css=e.selectiveRefresh.Partial.extend({refresh:function(){var t,r,c=this,n=e("jetpack_custom_css[preprocessor]").get();return jpCustomizerCssPreview.preprocessors.hasOwnProperty(n)?e.selectiveRefresh.Partial.prototype.refresh.call(c):(t=new s.Deferred,r=e("custom_css["+e.settings.theme.stylesheet+"]"),_.each(c.placements(),function(e){e.container.text(r.get())}),t.resolve(),t.promise())}})}(wp.customize,jQuery);/* Do not modify this file directly. It is compiled from other files. */
+/* jshint ignore:start */
+!function(t,e,r){var n,s=t.getElementsByTagName(e)[0],i=/^http:/.test(t.location)?"http":"https";t.getElementById(r)||(n=t.createElement(e),n.id=r,n.src=i+"://platform.twitter.com/widgets.js",s.parentNode.insertBefore(n,s))}(document,"script","twitter-wjs");

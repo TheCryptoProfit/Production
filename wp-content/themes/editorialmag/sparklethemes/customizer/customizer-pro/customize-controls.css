@@ -1,0 +1,25 @@
+#customize-controls .control-section-editorialmag .accordion-section-title:hover,
+#customize-controls .control-section-editorialmag .accordion-section-title:focus {
+	background-color: #fff;
+}
+
+.rtl .control-section-editorialmag .accordion-section-title .button {
+	margin-left:  0;
+	margin-right: 8px;
+}
+
+.control-section-editorialmag .accordion-section-title .button {
+  font-weight: 700;
+  margin-left: 8px;
+  border-color: #ff0202;
+  background-color: #ff0202;
+  color: #fff;
+}
+
+.control-section-editorialmag .accordion-section-title .button:hover {
+  background-color: #e8b701;
+  border-color: #e8b701;
+}
+#accordion-section-editorialmag .accordion-section-title:before{
+    content: '';
+}

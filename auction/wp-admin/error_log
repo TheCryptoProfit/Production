@@ -1,0 +1,119 @@
+[31-Dec-2017 22:14:13 UTC] wizard_viewed
+[31-Dec-2017 22:14:42 UTC] wizard_hidden
+[31-Dec-2017 22:14:42 UTC] wizard_disabled
+[31-Dec-2017 22:21:22 UTC] WordPress database error Table 'wp_pchj_auction_coupons' already exists for query  CREATE TABLE `wp_pchj_auction_coupons` (
+					`id` BIGINT NOT NULL AUTO_INCREMENT PRIMARY KEY ,
+					`coupon_name` VARCHAR( 255 ) NOT NULL ,
+					`coupon_solid_reduction` VARCHAR( 255 ) NOT NULL,
+					`coupon_percent_reduction` VARCHAR( 255 ) NOT NULL,
+					
+					`ending` VARCHAR( 255 ) NOT NULL,
+					`coupon_code` VARCHAR( 255 ) NOT NULL ,
+					`datemauctione` VARCHAR( 255 ) NOT NULL ,
+					`featured_free` INT NOT NULL DEFAULT '0',
+					`pause` INT NOT NULL DEFAULT '0'
+					) ENGINE = MYISAM  made by require_once('wp-admin/admin.php'), require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), include('/themes/AuctionTheme/functions.php'), get_template_part, locate_template, load_template, require('/themes/AuctionTheme/lib/first_run.php')
+[31-Dec-2017 22:21:22 UTC] WordPress database error Table 'wp_pchj_auction_custom_fields' already exists for query  CREATE TABLE `wp_pchj_auction_custom_fields` (
+					`id` BIGINT NOT NULL AUTO_INCREMENT PRIMARY KEY ,
+					`name` VARCHAR( 255 ) NOT NULL ,
+					`tp` VARCHAR( 48 ) NOT NULL ,
+					`ordr` INT NOT NULL ,
+					`cate` VARCHAR( 255 ) NOT NULL ,
+					`pause` INT NOT NULL DEFAULT '1'
+					) ENGINE = MYISAM  made by require_once('wp-admin/admin.php'), require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), include('/themes/AuctionTheme/functions.php'), get_template_part, locate_template, load_template, require('/themes/AuctionTheme/lib/first_run.php')
+[31-Dec-2017 22:21:22 UTC] WordPress database error Table 'wp_pchj_auction_custom_options' already exists for query  CREATE TABLE `wp_pchj_auction_custom_options` (
+					`id` BIGINT NOT NULL AUTO_INCREMENT PRIMARY KEY ,
+					`valval` VARCHAR( 255 ) NOT NULL ,
+					`ordr` INT( 11 ) NOT NULL ,
+					`custid` INT NOT NULL
+					) ENGINE = MYISAM  made by require_once('wp-admin/admin.php'), require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), include('/themes/AuctionTheme/functions.php'), get_template_part, locate_template, load_template, require('/themes/AuctionTheme/lib/first_run.php')
+[31-Dec-2017 22:21:22 UTC] WordPress database error Table 'wp_pchj_auction_custom_relations' already exists for query  CREATE TABLE `wp_pchj_auction_custom_relations` (
+					`id` BIGINT NOT NULL AUTO_INCREMENT PRIMARY KEY ,
+					`custid` BIGINT NOT NULL ,
+					`catid` BIGINT NOT NULL
+					) ENGINE = MYISAM  made by require_once('wp-admin/admin.php'), require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), include('/themes/AuctionTheme/functions.php'), get_template_part, locate_template, load_template, require('/themes/AuctionTheme/lib/first_run.php')
+[31-Dec-2017 23:08:44 UTC] WordPress database error Table 'thecryq8_ss_dbname203.wp_cn_social_icon' doesn't exist for query 
+	INSERT INTO `wp_cn_social_icon` (`id`, `title`, `url`, `image_url`, `sortorder`, `date_upload`, `target`) VALUES
+	(1, 'facebook', 'http://facebook.com/your-fan-page', '1368459524_facebook.png', 1, '1368459524', 1),
+	(2, 'twitter', 'http://twitter/username', '1368459556_twitter.png', 2, '1368459556', 1),
+	(3, 'flickr', 'http://flickr.com/?username', '1368459641_flicker.png', 3, '1368459641', 1),
+	(4, 'linkedin', 'http://linkedin.com', '1368459699_in.png', 4, '1368459699', 1),
+	(5, 'youtube', 'http://youtube.com/user', '1368459724_youtube.png', 5, '1368459724', 1) made by activate_plugin, do_action('activate_easy-social-icons/easy-social-icons.php'), WP_Hook->do_action, WP_Hook->apply_filters, cnss_db_install, dbDelta
+[04-Jan-2018 16:38:34 UTC] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home4/thecryq8/public_html/auction/wp-content/plugins/mojo-marketplace-wp-plugin/inc/menu.php on line 42
+[04-Jan-2018 16:40:28 UTC] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home4/thecryq8/public_html/auction/wp-content/plugins/mojo-marketplace-wp-plugin/inc/menu.php on line 42
+[04-Jan-2018 21:55:06 UTC] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home4/thecryq8/public_html/auction/wp-content/plugins/mojo-marketplace-wp-plugin/inc/menu.php on line 42
+[04-Jan-2018 23:45:06 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting variable (T_VARIABLE) or '{' or '$' in /home4/thecryq8/public_html/auction/wp-content/themes/AuctionTheme/lib/all_categories.php on line 146
+[05-Jan-2018 04:19:09 UTC] WordPress database error Unknown column 'rejected' in 'where clause' for query select * from wp_pchj_auction_withdraw where rejected='1' order by id desc made by do_action('product-gateways_page_Withdrawals'), WP_Hook->do_action, WP_Hook->apply_filters, AuctionTheme_withdrawals
+[05-Jan-2018 14:30:02 UTC] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home4/thecryq8/public_html/auction/wp-content/plugins/mojo-marketplace-wp-plugin/inc/menu.php on line 42
+[12-Jan-2018 09:09:54 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function split() in /home4/thecryq8/public_html/auction/wp-content/themes/AuctionTheme/autosuggest.php:34
+Stack trace:
+#0 /home4/thecryq8/public_html/auction/wp-includes/class-wp-hook.php(286): AuctionTheme_autosuggest_it('')
+#1 /home4/thecryq8/public_html/auction/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#2 /home4/thecryq8/public_html/auction/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /home4/thecryq8/public_html/auction/wp-admin/admin-ajax.php(112): do_action('wp_ajax_nopriv_...')
+#4 {main}
+  thrown in /home4/thecryq8/public_html/auction/wp-content/themes/AuctionTheme/autosuggest.php on line 34
+[14-Jan-2018 00:02:21 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function split() in /home4/thecryq8/public_html/auction/wp-content/themes/AuctionTheme/autosuggest.php:34
+Stack trace:
+#0 /home4/thecryq8/public_html/auction/wp-includes/class-wp-hook.php(286): AuctionTheme_autosuggest_it('')
+#1 /home4/thecryq8/public_html/auction/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#2 /home4/thecryq8/public_html/auction/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /home4/thecryq8/public_html/auction/wp-admin/admin-ajax.php(112): do_action('wp_ajax_nopriv_...')
+#4 {main}
+  thrown in /home4/thecryq8/public_html/auction/wp-content/themes/AuctionTheme/autosuggest.php on line 34
+[17-Jan-2018 00:34:15 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function split() in /home4/thecryq8/public_html/auction/wp-content/themes/AuctionTheme/autosuggest.php:34
+Stack trace:
+#0 /home4/thecryq8/public_html/auction/wp-includes/class-wp-hook.php(286): AuctionTheme_autosuggest_it('')
+#1 /home4/thecryq8/public_html/auction/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#2 /home4/thecryq8/public_html/auction/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /home4/thecryq8/public_html/auction/wp-admin/admin-ajax.php(112): do_action('wp_ajax_nopriv_...')
+#4 {main}
+  thrown in /home4/thecryq8/public_html/auction/wp-content/themes/AuctionTheme/autosuggest.php on line 34
+[25-Jan-2018 09:56:08 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function split() in /home4/thecryq8/public_html/auction/wp-content/themes/AuctionTheme/autosuggest.php:34
+Stack trace:
+#0 /home4/thecryq8/public_html/auction/wp-includes/class-wp-hook.php(286): AuctionTheme_autosuggest_it('')
+#1 /home4/thecryq8/public_html/auction/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#2 /home4/thecryq8/public_html/auction/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /home4/thecryq8/public_html/auction/wp-admin/admin-ajax.php(112): do_action('wp_ajax_nopriv_...')
+#4 {main}
+  thrown in /home4/thecryq8/public_html/auction/wp-content/themes/AuctionTheme/autosuggest.php on line 34
+[25-Jan-2018 18:46:09 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function split() in /home4/thecryq8/public_html/auction/wp-content/themes/AuctionTheme/autosuggest.php:34
+Stack trace:
+#0 /home4/thecryq8/public_html/auction/wp-includes/class-wp-hook.php(286): AuctionTheme_autosuggest_it('')
+#1 /home4/thecryq8/public_html/auction/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#2 /home4/thecryq8/public_html/auction/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /home4/thecryq8/public_html/auction/wp-admin/admin-ajax.php(112): do_action('wp_ajax_nopriv_...')
+#4 {main}
+  thrown in /home4/thecryq8/public_html/auction/wp-content/themes/AuctionTheme/autosuggest.php on line 34
+[25-Jan-2018 19:24:18 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function split() in /home4/thecryq8/public_html/auction/wp-content/themes/AuctionTheme/autosuggest.php:34
+Stack trace:
+#0 /home4/thecryq8/public_html/auction/wp-includes/class-wp-hook.php(286): AuctionTheme_autosuggest_it('')
+#1 /home4/thecryq8/public_html/auction/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#2 /home4/thecryq8/public_html/auction/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /home4/thecryq8/public_html/auction/wp-admin/admin-ajax.php(112): do_action('wp_ajax_nopriv_...')
+#4 {main}
+  thrown in /home4/thecryq8/public_html/auction/wp-content/themes/AuctionTheme/autosuggest.php on line 34
+[26-Jan-2018 04:37:19 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function split() in /home4/thecryq8/public_html/auction/wp-content/themes/AuctionTheme/autosuggest.php:34
+Stack trace:
+#0 /home4/thecryq8/public_html/auction/wp-includes/class-wp-hook.php(286): AuctionTheme_autosuggest_it('')
+#1 /home4/thecryq8/public_html/auction/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#2 /home4/thecryq8/public_html/auction/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /home4/thecryq8/public_html/auction/wp-admin/admin-ajax.php(112): do_action('wp_ajax_nopriv_...')
+#4 {main}
+  thrown in /home4/thecryq8/public_html/auction/wp-content/themes/AuctionTheme/autosuggest.php on line 34
+[26-Jan-2018 11:08:41 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function split() in /home4/thecryq8/public_html/auction/wp-content/themes/AuctionTheme/autosuggest.php:34
+Stack trace:
+#0 /home4/thecryq8/public_html/auction/wp-includes/class-wp-hook.php(286): AuctionTheme_autosuggest_it('')
+#1 /home4/thecryq8/public_html/auction/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#2 /home4/thecryq8/public_html/auction/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /home4/thecryq8/public_html/auction/wp-admin/admin-ajax.php(112): do_action('wp_ajax_nopriv_...')
+#4 {main}
+  thrown in /home4/thecryq8/public_html/auction/wp-content/themes/AuctionTheme/autosuggest.php on line 34
+[27-Jan-2018 08:28:16 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function split() in /home4/thecryq8/public_html/auction/wp-content/themes/AuctionTheme/autosuggest.php:34
+Stack trace:
+#0 /home4/thecryq8/public_html/auction/wp-includes/class-wp-hook.php(286): AuctionTheme_autosuggest_it('')
+#1 /home4/thecryq8/public_html/auction/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#2 /home4/thecryq8/public_html/auction/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /home4/thecryq8/public_html/auction/wp-admin/admin-ajax.php(112): do_action('wp_ajax_nopriv_...')
+#4 {main}
+  thrown in /home4/thecryq8/public_html/auction/wp-content/themes/AuctionTheme/autosuggest.php on line 34

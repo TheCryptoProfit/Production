@@ -1,0 +1,2325 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: ClassifiedTheme\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-09-23 22:52+0300\n"
+"PO-Revision-Date: 2016-09-23 22:52+0300\n"
+"Last-Translator: sitemile <sitemile@sitemile.com>\n"
+"Language-Team: sitemile.com <sitemile@sitemile.com>\n"
+"Language: ro\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: ..\n"
+"X-Generator: Poedit 1.8.7\n"
+"Plural-Forms: nplurals=3; plural=(n==1?0:(((n%100>19)||((n%100==0)&&(n!=0)))?"
+"2:1));\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: js\n"
+"X-Poedit-SearchPathExcluded-1: lib/uploadify\n"
+
+#: 404.php:32
+msgid "Page Not Found"
+msgstr "Pagina nu a fost gasita"
+
+#: 404.php:34
+msgid ""
+"The requested page cannot be found. Maybe your item has not been approved "
+"yet."
+msgstr "Articolul nu a fost gasit. Poate nu a fost aprobat inca."
+
+#: archive-ad.php:73
+msgid "All Posted Listings"
+msgstr "Toate Articolele"
+
+#: archive-ad.php:74
+#, php-format
+msgid "Latest Posted Listings in %s"
+msgstr "Articole Postate in %s"
+
+#: archive-ad.php:96 taxonomy.php:105
+msgid "No listings posted."
+msgstr "Nu au fost gasite articole."
+
+#: archive.php:40
+#, php-format
+msgid "Daily Blog Archives: %s"
+msgstr "Arhive Zilnice Blog %s"
+
+#: archive.php:42
+#, php-format
+msgid "Monthly Blog Archives: %s"
+msgstr "Arhive Lunare Blog %s"
+
+#: archive.php:44
+#, php-format
+msgid "Yearly Blog Archives: %s"
+msgstr "Arhive Anuale Blog %s"
+
+#: archive.php:46
+msgid "Blog Archives"
+msgstr "Arhive Blog"
+
+#: autosuggest.php:84
+msgid "No results found"
+msgstr "Nu sunt rezultate gasite."
+
+#: comments.php:4
+msgid ""
+"This post is password protected. Enter the password to view any comments."
+msgstr ""
+
+#: comments.php:27 comments.php:42
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:28 comments.php:43
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: comments.php:29 comments.php:44
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: comments.php:52
+msgid "Comments are closed."
+msgstr ""
+
+#: functions.php:58
+msgid "Begin to search by typing here..."
+msgstr "Incepe cautarea aici..."
+
+#: functions.php:145
+#, php-format
+msgid ""
+"In order to benefit of the full experience of our theme, we recommend "
+"installing <strong><a href=\"%s\">this plugin</a></strong>. It will give you "
+"the \"Page Builder\" feature for your pages, and configure homepage as well."
+msgstr ""
+
+#: functions.php:171
+#, php-format
+msgid ""
+"In order to benefit of the full experience of our theme, we recommend "
+"installing <strong><a href=\"%s\">WP PageNavi Plugin</a></strong>. You will "
+"need it for pagination."
+msgstr ""
+
+#: functions.php:198
+#, php-format
+msgid ""
+"In order to benefit of the full experience of our theme, we recommend "
+"installing <strong><a href=\"%s\">the Breadcrumb Plugin</a></strong>."
+msgstr ""
+
+#: functions.php:490 functions.php:3088
+msgid "Select"
+msgstr "Selecteaza"
+
+#: functions.php:630 functions.php:1663 lib/advanced_search.php:243
+#: lib/my_account/edit_ad.php:512 lib/post_new.php:966 single-ad.php:395
+msgid "Price"
+msgstr "Pret"
+
+#: functions.php:631
+msgid "Featured"
+msgstr "Promovat"
+
+#: functions.php:632 lib/post_new.php:988 single-ad.php:417
+msgid "Expires in"
+msgstr "Expira in"
+
+#: functions.php:633
+msgid "Thumbnail"
+msgstr "Iconita"
+
+#: functions.php:634 lib/my_account/messages.php:84
+#: lib/my_account/messages.php:138 lib/my_account/messages.php:249
+#: lib/my_account/messages.php:366
+msgid "Options"
+msgstr "Optiuni"
+
+#: functions.php:729 lib/admin_menu.php:59 lib/admin_menu.php:243
+#: lib/admin_menu.php:664 lib/admin_menu.php:1264 lib/admin_menu.php:1578
+#: lib/admin_menu.php:1876 lib/admin_menu.php:2137 lib/admin_menu.php:2396
+#: lib/my_account/close_ad.php:91 lib/my_account/delete_ad.php:90
+#: lib/my_account/mem_packs.php:108
+msgid "Yes"
+msgstr "Da"
+
+#: functions.php:730 lib/admin_menu.php:59 lib/admin_menu.php:243
+#: lib/admin_menu.php:664 lib/admin_menu.php:1264 lib/admin_menu.php:1578
+#: lib/admin_menu.php:1876 lib/admin_menu.php:2137 lib/admin_menu.php:2396
+#: lib/my_account/close_ad.php:92 lib/my_account/delete_ad.php:91
+#: lib/my_account/mem_packs.php:108
+msgid "No"
+msgstr "Nu"
+
+#: functions.php:748 single-ad.php:697
+msgid "Edit"
+msgstr "Modifica"
+
+#: functions.php:749
+msgid "View"
+msgstr "Vizulalizare"
+
+#: functions.php:750
+msgid "Trash"
+msgstr "Articole Sterse"
+
+#: functions.php:855
+#, php-format
+msgid "Page %s of %s"
+msgstr ""
+
+#: functions.php:873
+msgid "First"
+msgstr ""
+
+#: functions.php:899
+msgid "Last"
+msgstr ""
+
+#: functions.php:1004 lib/post_new.php:981 single-ad.php:410
+msgid "Posted on"
+msgstr "Postat pe"
+
+#: functions.php:1004
+msgid "by"
+msgstr "de"
+
+#: functions.php:1010 functions.php:2408 functions.php:2881
+msgid "Read More"
+msgstr "Citeste mai mult"
+
+#: functions.php:1169
+msgid "Posted in"
+msgstr "Postat in"
+
+#: functions.php:1170 lib/my_account/edit_ad.php:493 lib/post_new.php:100
+#: lib/post_new.php:975 single-ad.php:404
+msgid "Location"
+msgstr "Locatie"
+
+#: functions.php:1173
+msgid "not defined"
+msgstr "nedefinit"
+
+#: functions.php:1638
+msgid "Ad Ending On"
+msgstr "Expira pe"
+
+#: functions.php:1669 lib/my_account/edit_ad.php:507 lib/post_new.php:320
+#: lib/post_new.php:1176 single-ad.php:621
+msgid "Address"
+msgstr "Adresa"
+
+#: functions.php:1674
+msgid "Feature this ad"
+msgstr "Promoveaza articolul"
+
+#: functions.php:1960
+msgid "My Account Menu"
+msgstr "Contul Meu"
+
+#: functions.php:1964
+msgid "MyAccount Home"
+msgstr "Contul Meu "
+
+#: functions.php:1965
+msgid "Post New Listing"
+msgstr "Posteaza Articol"
+
+#: functions.php:1966
+msgid "Messages"
+msgstr "Mesaje"
+
+#: functions.php:1967
+msgid "Personal Info"
+msgstr "Informatii Personale"
+
+#: functions.php:1968
+msgid "Membership Packages"
+msgstr "Pachete Membri"
+
+#: functions.php:1969
+msgid "My Active Listings"
+msgstr "Articole Active"
+
+#: functions.php:1970 lib/my_account/expired_listings.php:32
+msgid "Expired Listings"
+msgstr "Articole Expirate"
+
+#: functions.php:1971 lib/my_account/unpublished_listings.php:32
+msgid "Unpublished Listings"
+msgstr "Anunturi Nepublicate"
+
+#: functions.php:1975 header.php:263 header.php:337
+msgid "Log Out"
+msgstr "Iesire"
+
+#: functions.php:2062 functions.php:2096 lib/post_new.php:255
+#: lib/post_new.php:283
+msgid "Select Subcategory"
+msgstr "Selecteaza sub-categorie"
+
+#: functions.php:2130 functions.php:2161
+msgid "Select Sublocation"
+msgstr "Selecteaza sub-locatie"
+
+#: functions.php:2701
+msgid "Expired"
+msgstr "Expirat"
+
+#: functions.php:2703
+#, php-format
+msgid "%s hours, %s min, %s sec"
+msgstr "%s ore, %s min, %s sec"
+
+#: functions.php:2706
+msgid "days"
+msgstr "zile"
+
+#: functions.php:2706
+msgid "day"
+msgstr "zi"
+
+#: functions.php:2707
+#, php-format
+msgid "%s %s, %s hours, %s min"
+msgstr "%s %s, %s ore, %s min"
+
+#: functions.php:2884
+msgid "Edit Ad"
+msgstr "Modificare Articol"
+
+#: functions.php:2895 single-ad.php:698
+msgid "Publish"
+msgstr "Publicare"
+
+#: functions.php:2903
+msgid "Republish"
+msgstr "Republicare"
+
+#: functions.php:2906
+msgid "Close Ad"
+msgstr "Inchide anunt"
+
+#: functions.php:2910
+msgid "Delete Ad"
+msgstr "Sterge anunt"
+
+#: functions.php:3269
+msgid "Classified Ads"
+msgstr "Anunturi"
+
+#: functions.php:3270
+msgid "Ad"
+msgstr "Anunt"
+
+#: functions.php:3271
+msgid "Add New Ad"
+msgstr "Adauga anunt"
+
+#: functions.php:3272
+msgid "New Classified Ad"
+msgstr "Anunt Nou"
+
+#: functions.php:3273
+msgid "Edit Classified Ad"
+msgstr "Modificare Anunt"
+
+#: functions.php:3274
+msgid "Add New Classified Ad"
+msgstr "Adauga Anunt"
+
+#: functions.php:3275
+msgid "Search Ads"
+msgstr "Cautare anunturi"
+
+#: functions.php:3294
+msgid "Advert Categories"
+msgstr "Categorii Anunturi"
+
+#: functions.php:3299 lib/cl_style_location.php:8 lib/cl_style_location.php:19
+msgid "Locations"
+msgstr "Locatii"
+
+#: functions.php:3424
+#, php-format
+msgid "Price: %s"
+msgstr "Pret: %s"
+
+#: functions.php:4020
+msgid "Single Page Sidebar"
+msgstr ""
+
+#: functions.php:4022
+msgid "The sidebar area of the single blog post"
+msgstr ""
+
+#: functions.php:4030
+msgid "Other Page Sidebar"
+msgstr ""
+
+#: functions.php:4032
+msgid "The sidebar area of any other page than the defined ones"
+msgstr ""
+
+#: functions.php:4043
+msgid "Home Page Sidebar - Right"
+msgstr ""
+
+#: functions.php:4045
+msgid "The right sidebar area of the homepage"
+msgstr ""
+
+#: functions.php:4056
+msgid "Home Page Sidebar - Left"
+msgstr ""
+
+#: functions.php:4058
+msgid "The left sidebar area of the homepage"
+msgstr ""
+
+#: functions.php:4068
+msgid "First Footer Widget Area"
+msgstr ""
+
+#: functions.php:4070
+msgid "The first footer widget area"
+msgstr ""
+
+#: functions.php:4079
+msgid "Second Footer Widget Area"
+msgstr ""
+
+#: functions.php:4081
+msgid "The second footer widget area"
+msgstr ""
+
+#: functions.php:4090
+msgid "Third Footer Widget Area"
+msgstr ""
+
+#: functions.php:4092
+msgid "The third footer widget area"
+msgstr ""
+
+#: functions.php:4101
+msgid "Fourth Footer Widget Area"
+msgstr ""
+
+#: functions.php:4103
+msgid "The fourth footer widget area"
+msgstr ""
+
+#: functions.php:4113
+msgid "ClassifiedTheme - Listing Single Sidebar"
+msgstr ""
+
+#: functions.php:4115
+msgid "The sidebar of the single listing page"
+msgstr ""
+
+#: functions.php:4124
+msgid "ClassifiedTheme - HomePage Area"
+msgstr ""
+
+#: functions.php:4126
+msgid "The sidebar for the main page, just under the slider."
+msgstr ""
+
+#: functions.php:4135
+msgid "ClassifiedTheme - Stretch Wide Sidebar"
+msgstr ""
+
+#: functions.php:4137
+msgid "The sidebar sidewide stretched, just under the slider."
+msgstr ""
+
+#: functions.php:4146
+msgid "ClassifiedTheme - Under search index"
+msgstr ""
+
+#: functions.php:4148
+msgid "The sidebar located under the searchbar on homepage."
+msgstr ""
+
+#: header.php:213 header.php:287
+msgid "Wp-Admin"
+msgstr "Admin"
+
+#: header.php:217 header.php:291 lib/login_register/login.php:126
+#: lib/login_register/login.php:450 lib/login_register/register.php:131
+#: lib/login_register/register.php:168 top-main-menu.php:32
+#: top-main-menu_responsive.php:32
+msgid "Home"
+msgstr "Acasa"
+
+#: header.php:262 header.php:336
+#, php-format
+msgid "MyAccount - %s"
+msgstr "Contul Meu - %s"
+
+#: header.php:273 header.php:347 lib/login_register/login.php:128
+#: lib/login_register/login.php:452 lib/login_register/register.php:81
+#: lib/login_register/register.php:127
+msgid "Register"
+msgstr "Inregistrare"
+
+#: header.php:274 header.php:348
+msgid "Log In"
+msgstr "Logare"
+
+#: header.php:389
+msgid "Search by typing here..."
+msgstr "Cautare..."
+
+#: header.php:397
+msgid "Start Search"
+msgstr "Cauta"
+
+#: header.php:407
+msgid "Post an Ad"
+msgstr "Anunt Nou"
+
+#: home-slider.php:26
+msgid "Latest Featured Items"
+msgstr "Anunturi Promovate"
+
+#: latest-posted-items.php:3
+msgid "Latest Listings"
+msgstr "Ultimele anunturi"
+
+#: latest-posted-items.php:11 latest-posted-items.php:16
+msgid "List View"
+msgstr "Lista"
+
+#: latest-posted-items.php:12 latest-posted-items.php:17
+msgid "Grid View"
+msgstr "Grid"
+
+#: latest-posted-items.php:63
+msgid "See more ads"
+msgstr "Mai multe anunturi"
+
+#: latest-posted-items.php:67
+msgid "Sorry, there are no posted listings yet"
+msgstr "Nu sunt anunturi"
+
+#: lib/admin_menu.php:22
+msgid "Classified Theme"
+msgstr "Tema Anunturi"
+
+#: lib/admin_menu.php:23
+msgid "Site Summary"
+msgstr ""
+
+#: lib/admin_menu.php:24
+msgid "General Options"
+msgstr ""
+
+#: lib/admin_menu.php:25 lib/admin_menu.php:238
+msgid "Category Images"
+msgstr ""
+
+#: lib/admin_menu.php:26 lib/admin_menu.php:54
+msgid "Category Icons"
+msgstr ""
+
+#: lib/admin_menu.php:27 lib/admin_menu.php:3169 lib/admin_menu.php:3270
+msgid "Email Settings"
+msgstr ""
+
+#: lib/admin_menu.php:28 lib/admin_menu.php:1577
+msgid "Pricing Settings"
+msgstr ""
+
+#: lib/admin_menu.php:29
+msgid "Custom Pricing"
+msgstr ""
+
+#: lib/admin_menu.php:30
+msgid "Custom Fields"
+msgstr ""
+
+#: lib/admin_menu.php:31
+msgid "Images Options"
+msgstr ""
+
+#: lib/admin_menu.php:32
+msgid "Payment Gateways"
+msgstr ""
+
+#: lib/admin_menu.php:40
+msgid "Membership Packs"
+msgstr ""
+
+#: lib/admin_menu.php:43 lib/admin_menu.php:659
+msgid "Layout Settings"
+msgstr ""
+
+#: lib/admin_menu.php:44
+msgid "Advertising"
+msgstr ""
+
+#: lib/admin_menu.php:46 lib/admin_menu.php:1875
+msgid "Tracking Tools"
+msgstr ""
+
+#: lib/admin_menu.php:47
+msgid "Info Stuff"
+msgstr ""
+
+#: lib/admin_menu.php:114
+msgid "Set Category Icons"
+msgstr ""
+
+#: lib/admin_menu.php:130 lib/admin_menu.php:314
+msgid "Category Name"
+msgstr ""
+
+#: lib/admin_menu.php:131
+msgid "Upload Icon File"
+msgstr ""
+
+#: lib/admin_menu.php:132
+msgid "Current Icon"
+msgstr ""
+
+#: lib/admin_menu.php:199 lib/admin_menu.php:384
+msgid "Select/Add Your Image"
+msgstr ""
+
+#: lib/admin_menu.php:207 lib/admin_menu.php:392
+msgid "No image attached."
+msgstr ""
+
+#: lib/admin_menu.php:298
+msgid "Set Images"
+msgstr ""
+
+#: lib/admin_menu.php:315
+msgid "Upload Picture"
+msgstr ""
+
+#: lib/admin_menu.php:316
+msgid "Current Picture"
+msgstr ""
+
+#: lib/admin_menu.php:683 lib/admin_menu.php:690 lib/admin_menu.php:698
+#: lib/admin_menu.php:706 lib/admin_menu.php:1297 lib/admin_menu.php:1310
+#: lib/admin_menu.php:1322 lib/admin_menu.php:1333 lib/admin_menu.php:1617
+#: lib/admin_menu.php:1637 lib/admin_menu.php:1653 lib/admin_menu.php:1663
+#: lib/admin_menu.php:1890 lib/admin_menu.php:1898 lib/admin_menu.php:1994
+#: lib/admin_menu.php:2002 lib/admin_menu.php:2010 lib/admin_menu.php:2018
+#: lib/admin_menu.php:2156 lib/admin_menu.php:2164 lib/admin_menu.php:2172
+#: lib/admin_menu.php:2180 lib/admin_menu.php:2189 lib/admin_menu.php:2415
+#: lib/admin_menu.php:2423 lib/admin_menu.php:2431 lib/admin_menu.php:2439
+#: lib/admin_menu.php:2448 lib/admin_menu.php:3187 lib/admin_menu.php:3195
+#: lib/admin_menu.php:3204 lib/admin_menu.php:3214 lib/admin_menu.php:3223
+#: lib/admin_menu.php:3232 lib/admin_menu.php:3241 lib/admin_menu.php:3251
+#: lib/admin_menu.php:3260
+msgid "Settings saved!"
+msgstr ""
+
+#: lib/admin_menu.php:719 lib/admin_menu.php:2025
+msgid "HomePage"
+msgstr ""
+
+#: lib/admin_menu.php:720
+msgid "Header"
+msgstr ""
+
+#: lib/admin_menu.php:721
+msgid "Footer"
+msgstr ""
+
+#: lib/admin_menu.php:722
+msgid "Change Colors"
+msgstr ""
+
+#: lib/admin_menu.php:731
+msgid "Color for background:"
+msgstr ""
+
+#: lib/admin_menu.php:747
+msgid "Color for footer:"
+msgstr ""
+
+#: lib/admin_menu.php:754
+msgid "Color for text footer:"
+msgstr ""
+
+#: lib/admin_menu.php:761
+msgid "Color for top links:"
+msgstr ""
+
+#: lib/admin_menu.php:767
+msgid "Color for top links(hover):"
+msgstr ""
+
+#: lib/admin_menu.php:774
+msgid "Color for main menu:"
+msgstr ""
+
+#: lib/admin_menu.php:781
+msgid "Color for main menu(hover):"
+msgstr ""
+
+#: lib/admin_menu.php:790 lib/admin_menu.php:854 lib/admin_menu.php:922
+#: lib/admin_menu.php:952 lib/admin_menu.php:1463 lib/admin_menu.php:1505
+#: lib/admin_menu.php:1549 lib/admin_menu.php:1719 lib/admin_menu.php:1752
+#: lib/admin_menu.php:1931 lib/admin_menu.php:1961 lib/admin_menu.php:2047
+#: lib/admin_menu.php:2072 lib/admin_menu.php:2096 lib/admin_menu.php:2120
+#: lib/admin_menu.php:2495 lib/admin_menu.php:2525 lib/admin_menu.php:2555
+#: lib/admin_menu.php:2585 lib/admin_menu.php:2617 lib/admin_menu.php:3344
+#: lib/admin_menu.php:3406 lib/admin_menu.php:3469 lib/admin_menu.php:3533
+#: lib/admin_menu.php:3594 lib/admin_menu.php:3655 lib/admin_menu.php:3691
+#: lib/admin_menu.php:3744 lib/admin_menu.php:3797
+msgid "Save Options"
+msgstr ""
+
+#: lib/admin_menu.php:806
+msgid "The layout of the homepage."
+msgstr ""
+
+#: lib/admin_menu.php:807
+msgid "Choose from the home page layouts available:"
+msgstr ""
+
+#: lib/admin_menu.php:811
+msgid "Content + Right Sidebar:"
+msgstr ""
+
+#: lib/admin_menu.php:819
+msgid "Content + Left Sidebar + Right Sidebar:"
+msgstr ""
+
+#: lib/admin_menu.php:827
+msgid "Left Sidebar + Content + Right Sidebar:"
+msgstr ""
+
+#: lib/admin_menu.php:835
+msgid "Left Sidebar + Content:"
+msgstr ""
+
+#: lib/admin_menu.php:843
+msgid "Content:"
+msgstr ""
+
+#: lib/admin_menu.php:905
+msgid "Eg: http://your-site-url.com/images/logo.jpg"
+msgstr ""
+
+#: lib/admin_menu.php:906
+msgid "Logo URL:"
+msgstr ""
+
+#: lib/admin_menu.php:908
+msgid "Upload/Select Logo File"
+msgstr ""
+
+#: lib/admin_menu.php:913
+msgid "Write custom css code here, to affect entire website."
+msgstr ""
+
+#: lib/admin_menu.php:914
+msgid "Custom CSS:"
+msgstr ""
+
+#: lib/admin_menu.php:936
+msgid "This will appear in the left side of the footer area."
+msgstr ""
+
+#: lib/admin_menu.php:937
+msgid "Left side footer area content:"
+msgstr ""
+
+#: lib/admin_menu.php:943
+msgid "This will appear in the right side of the footer area."
+msgstr ""
+
+#: lib/admin_menu.php:944
+msgid "Right side footer area content:"
+msgstr ""
+
+#: lib/admin_menu.php:1082 lib/admin_menu.php:1219
+msgid "Previous"
+msgstr ""
+
+#: lib/admin_menu.php:1102 lib/admin_menu.php:1239
+msgid "Next"
+msgstr ""
+
+#: lib/admin_menu.php:1245
+msgid "Sorry there are no transactions."
+msgstr ""
+
+#: lib/admin_menu.php:1262
+msgid "General Settings"
+msgstr ""
+
+#: lib/admin_menu.php:1342
+msgid "Main Settings"
+msgstr ""
+
+#: lib/admin_menu.php:1343
+msgid "Facebook Connect"
+msgstr ""
+
+#: lib/admin_menu.php:1344
+msgid "Twitter Connect"
+msgstr ""
+
+#: lib/admin_menu.php:1357
+msgid "Enable Collapsible Categories and Locations:"
+msgstr ""
+
+#: lib/admin_menu.php:1363
+msgid "Send Emails no personal headers:"
+msgstr ""
+
+#: lib/admin_menu.php:1370
+msgid "Show views in each listing page:"
+msgstr ""
+
+#: lib/admin_menu.php:1376
+msgid "Admin approves each listing:"
+msgstr ""
+
+#: lib/admin_menu.php:1383
+msgid "Enable Frontpage Slider:"
+msgstr ""
+
+#: lib/admin_menu.php:1389
+msgid "Enable Main Menu:"
+msgstr ""
+
+#: lib/admin_menu.php:1395
+msgid "Enable Stretch Area:"
+msgstr ""
+
+#: lib/admin_menu.php:1401
+msgid "Enable Blog:"
+msgstr ""
+
+#: lib/admin_menu.php:1410
+msgid "Only admin will post listings:"
+msgstr ""
+
+#: lib/admin_menu.php:1415 lib/admin_menu.php:1421
+msgid ""
+"After the time expires the job will be closed and your users can repost it. "
+"Leave 0 for never-expire listings."
+msgstr ""
+
+#: lib/admin_menu.php:1416
+msgid "Google Maps Api key:"
+msgstr ""
+
+#: lib/admin_menu.php:1422
+msgid "Listing max listing period:"
+msgstr ""
+
+#: lib/admin_menu.php:1428
+msgid "Featured listing max job listing period:"
+msgstr ""
+
+#: lib/admin_menu.php:1435
+msgid "Listings per page in Advanced Search:"
+msgstr ""
+
+#: lib/admin_menu.php:1442
+msgid "Slug for Listing Permalink:"
+msgstr ""
+
+#: lib/admin_menu.php:1448
+msgid "Slug for Location Permalink:"
+msgstr ""
+
+#: lib/admin_menu.php:1454
+msgid "Slug for Category Permalink:"
+msgstr ""
+
+#: lib/admin_menu.php:1486
+msgid "Enable Facebook Login:"
+msgstr ""
+
+#: lib/admin_menu.php:1492
+msgid "Facebook App ID:"
+msgstr ""
+
+#: lib/admin_menu.php:1498
+msgid "Facebook Secret Key:"
+msgstr ""
+
+#: lib/admin_menu.php:1520
+msgid "Enable Twitter Login:"
+msgstr ""
+
+#: lib/admin_menu.php:1526
+msgid "Twitter Consumer Key:"
+msgstr ""
+
+#: lib/admin_menu.php:1532
+msgid "Twitter Consumer Secret:"
+msgstr ""
+
+#: lib/admin_menu.php:1540
+msgid "Callback URL:"
+msgstr ""
+
+#: lib/admin_menu.php:1579
+msgid "Comma (,)"
+msgstr ""
+
+#: lib/admin_menu.php:1579
+msgid "Point (.)"
+msgstr ""
+
+#: lib/admin_menu.php:1580
+msgid "In front of sum (eg: $50)"
+msgstr ""
+
+#: lib/admin_menu.php:1580
+msgid "After the sum (eg: 50$)"
+msgstr ""
+
+#: lib/admin_menu.php:1671
+msgid "Main Details"
+msgstr ""
+
+#: lib/admin_menu.php:1672
+msgid "Listing Fees"
+msgstr ""
+
+#: lib/admin_menu.php:1683
+msgid "Site currency:"
+msgstr ""
+
+#: lib/admin_menu.php:1690
+msgid "Currency symbol:"
+msgstr ""
+
+#: lib/admin_menu.php:1696
+msgid "Currency symbol position:"
+msgstr ""
+
+#: lib/admin_menu.php:1703
+msgid "Decimals sum separator:"
+msgstr ""
+
+#: lib/admin_menu.php:1709
+msgid "Thousands sum separator:"
+msgstr ""
+
+#: lib/admin_menu.php:1736
+msgid "Listing Fee (base fee):"
+msgstr ""
+
+#: lib/admin_menu.php:1742
+msgid "Listing Fee (featured fee):"
+msgstr ""
+
+#: lib/admin_menu.php:1772
+msgid "Information"
+msgstr ""
+
+#: lib/admin_menu.php:1784
+msgid "Main Information"
+msgstr ""
+
+#: lib/admin_menu.php:1785
+msgid "From SiteMile Blog"
+msgstr ""
+
+#: lib/admin_menu.php:1794
+msgid "ClassifiedTheme Version:"
+msgstr ""
+
+#: lib/admin_menu.php:1799
+msgid "ClassifiedTheme Latest Release:"
+msgstr ""
+
+#: lib/admin_menu.php:1804
+msgid "WordPress Version:"
+msgstr ""
+
+#: lib/admin_menu.php:1810
+msgid "Go to SiteMile official page:"
+msgstr ""
+
+#: lib/admin_menu.php:1815
+msgid "Go to ClassifiedTheme's official page:"
+msgstr ""
+
+#: lib/admin_menu.php:1820
+msgid "Go to support forums:"
+msgstr ""
+
+#: lib/admin_menu.php:1825
+msgid "Contact SiteMile Team:"
+msgstr ""
+
+#: lib/admin_menu.php:1830
+msgid "Like us on Facebook:"
+msgstr ""
+
+#: lib/admin_menu.php:1836
+msgid "Follow us on Twitter:"
+msgstr ""
+
+#: lib/admin_menu.php:1906
+msgid "Google Analytics"
+msgstr ""
+
+#: lib/admin_menu.php:1907
+msgid "Other Tracking Tools"
+msgstr ""
+
+#: lib/admin_menu.php:1917
+msgid "Enable Google Analytics:"
+msgstr ""
+
+#: lib/admin_menu.php:1923
+msgid "Analytics Code:"
+msgstr ""
+
+#: lib/admin_menu.php:1947
+msgid "Enable Other Tracking:"
+msgstr ""
+
+#: lib/admin_menu.php:1953
+msgid "Other Tracking Code:"
+msgstr ""
+
+#: lib/admin_menu.php:1981
+msgid "Advertising Spaces"
+msgstr ""
+
+#: lib/admin_menu.php:2026
+msgid "Listing Page"
+msgstr ""
+
+#: lib/admin_menu.php:2027
+msgid "Category Page"
+msgstr ""
+
+#: lib/admin_menu.php:2028
+msgid "Single Blog/Normal Page"
+msgstr ""
+
+#: lib/admin_menu.php:2034 lib/admin_menu.php:2059 lib/admin_menu.php:2083
+#: lib/admin_menu.php:2107
+msgid "Above the content area:"
+msgstr ""
+
+#: lib/admin_menu.php:2040 lib/admin_menu.php:2065 lib/admin_menu.php:2089
+#: lib/admin_menu.php:2113
+msgid "Below the content area:"
+msgstr ""
+
+#: lib/admin_menu.php:2461
+msgid "Bank Payment(offline)"
+msgstr ""
+
+#: lib/admin_menu.php:2472 lib/admin_menu.php:2510 lib/admin_menu.php:2540
+#: lib/admin_menu.php:2570 lib/admin_menu.php:2602
+msgid "Enable:"
+msgstr ""
+
+#: lib/admin_menu.php:2478
+msgid "PayPal Enable Sandbox:"
+msgstr ""
+
+#: lib/admin_menu.php:2484
+msgid "PayPal Email Address:"
+msgstr ""
+
+#: lib/admin_menu.php:2516
+msgid "Payza/Alertpay Email:"
+msgstr ""
+
+#: lib/admin_menu.php:2546
+msgid "MoneyBookers Email:"
+msgstr ""
+
+#: lib/admin_menu.php:2576
+msgid "iDeal Partner ID:"
+msgstr ""
+
+#: lib/admin_menu.php:2608
+msgid "Bank Details:"
+msgstr ""
+
+#: lib/admin_menu.php:3271
+msgid "New User Email"
+msgstr ""
+
+#: lib/admin_menu.php:3272
+msgid "New User Email (admin)"
+msgstr ""
+
+#: lib/admin_menu.php:3274
+msgid "Post Item (Not Approved) Email (admin)"
+msgstr ""
+
+#: lib/admin_menu.php:3275
+msgid "Post Item (Auto Approved) Email (admin)"
+msgstr ""
+
+#: lib/admin_menu.php:3276
+msgid "Post Item (Not Approved) Email"
+msgstr ""
+
+#: lib/admin_menu.php:3277
+msgid "Post Item (Auto Approved) Email"
+msgstr ""
+
+#: lib/admin_menu.php:3278
+msgid "Item Expire Notice"
+msgstr ""
+
+#: lib/admin_menu.php:3280
+msgid "Private Message Received"
+msgstr ""
+
+#: lib/admin_menu.php:3291
+msgid ""
+"This email will be received by any user when another user sends a private "
+"message.\n"
+"\t\t\t\t Be aware, if you add html tags to this email you must have the "
+"allow HTML tags option set to yes.\n"
+"\t\t\t\t Also at the bottom you can see a list of tags you can use in the "
+"email body."
+msgstr ""
+
+#: lib/admin_menu.php:3302 lib/admin_menu.php:3366 lib/admin_menu.php:3429
+#: lib/admin_menu.php:3494 lib/admin_menu.php:3555 lib/admin_menu.php:3616
+msgid "Enable this email:"
+msgstr ""
+
+#: lib/admin_menu.php:3308 lib/admin_menu.php:3372 lib/admin_menu.php:3435
+#: lib/admin_menu.php:3500 lib/admin_menu.php:3561 lib/admin_menu.php:3622
+#: lib/admin_menu.php:3711 lib/admin_menu.php:3765
+msgid "Email Subject:"
+msgstr ""
+
+#: lib/admin_menu.php:3316 lib/admin_menu.php:3380 lib/admin_menu.php:3443
+#: lib/admin_menu.php:3508 lib/admin_menu.php:3569 lib/admin_menu.php:3630
+#: lib/admin_menu.php:3719 lib/admin_menu.php:3773
+msgid "Email Content:"
+msgstr ""
+
+#: lib/admin_menu.php:3326 lib/admin_menu.php:3390 lib/admin_menu.php:3453
+#: lib/admin_menu.php:3518 lib/admin_menu.php:3579 lib/admin_menu.php:3640
+#: lib/admin_menu.php:3729 lib/admin_menu.php:3783
+msgid "Here is a list of tags you can use in this email:"
+msgstr ""
+
+#: lib/admin_menu.php:3329 lib/admin_menu.php:3393 lib/admin_menu.php:3456
+#: lib/admin_menu.php:3520 lib/admin_menu.php:3581 lib/admin_menu.php:3642
+#: lib/admin_menu.php:3734 lib/admin_menu.php:3787
+msgid "the link to your user login page"
+msgstr ""
+
+#: lib/admin_menu.php:3330 lib/admin_menu.php:3394 lib/admin_menu.php:3457
+#: lib/admin_menu.php:3521 lib/admin_menu.php:3582 lib/admin_menu.php:3643
+#: lib/admin_menu.php:3735 lib/admin_menu.php:3788
+msgid "your website's name"
+msgstr ""
+
+#: lib/admin_menu.php:3331 lib/admin_menu.php:3395 lib/admin_menu.php:3458
+#: lib/admin_menu.php:3522 lib/admin_menu.php:3583 lib/admin_menu.php:3644
+#: lib/admin_menu.php:3736 lib/admin_menu.php:3789
+msgid "your website's main address"
+msgstr ""
+
+#: lib/admin_menu.php:3332 lib/admin_menu.php:3396 lib/admin_menu.php:3459
+#: lib/admin_menu.php:3523 lib/admin_menu.php:3584 lib/admin_menu.php:3645
+msgid "your website's my account link"
+msgstr ""
+
+#: lib/admin_menu.php:3334
+msgid "sender username"
+msgstr ""
+
+#: lib/admin_menu.php:3335
+msgid "receiver username"
+msgstr ""
+
+#: lib/admin_menu.php:3355
+msgid ""
+"This email will be received by your users after posting a new item on your "
+"website if the item is automatically approved.\n"
+"          Be aware, if you add html tags to this email you must have the "
+"allow HTML tags option set to yes.\n"
+"          Also at the bottom you can see a list of tags you can use in the "
+"email body."
+msgstr ""
+
+#: lib/admin_menu.php:3392
+msgid "username"
+msgstr ""
+
+#: lib/admin_menu.php:3397 lib/admin_menu.php:3460 lib/admin_menu.php:3524
+#: lib/admin_menu.php:3585 lib/admin_menu.php:3646
+msgid "item's title"
+msgstr ""
+
+#: lib/admin_menu.php:3398 lib/admin_menu.php:3461 lib/admin_menu.php:3525
+#: lib/admin_menu.php:3586
+msgid "link for the new item"
+msgstr ""
+
+#: lib/admin_menu.php:3418
+msgid ""
+"This email will be received by your users after posting a new item on your "
+"website if the item is not automatically approved.\n"
+"          Be aware, if you add html tags to this email you must have the "
+"allow HTML tags option set to yes.\n"
+"          Also at the bottom you can see a list of tags you can use in the "
+"email body."
+msgstr ""
+
+#: lib/admin_menu.php:3455
+msgid "item owner username"
+msgstr ""
+
+#: lib/admin_menu.php:3483
+msgid ""
+"This email will be received by the user when his listing on the website "
+"expires.\n"
+"          Be aware, if you add html tags to this email you must have the "
+"allow HTML tags option set to yes.\n"
+"          Also at the bottom you can see a list of tags you can use in the "
+"email body."
+msgstr ""
+
+#: lib/admin_menu.php:3544
+msgid ""
+"This email will be received by the admin when someone posts an item on the "
+"website to be approved.\n"
+"          Be aware, if you add html tags to this email you must have the "
+"allow HTML tags option set to yes.\n"
+"          Also at the bottom you can see a list of tags you can use in the "
+"email body."
+msgstr ""
+
+#: lib/admin_menu.php:3605
+msgid ""
+"This email will be received by the admin when someone posts an item on the "
+"website. This email will be received if the the item is automatically "
+"approved.\n"
+"          Be aware, if you add html tags to this email you must have the "
+"allow HTML tags option set to yes.\n"
+"          Also at the bottom you can see a list of tags you can use in the "
+"email body."
+msgstr ""
+
+#: lib/admin_menu.php:3647
+msgid "link for the new listing"
+msgstr ""
+
+#: lib/admin_menu.php:3701
+msgid ""
+"This email will be received by all new users who register on your website.\n"
+"          Be aware, if you add html tags to this email you must have the "
+"allow HTML tags option set to yes.\n"
+"          Also at the bottom you can see a list of tags you can use in the "
+"email body."
+msgstr ""
+
+#: lib/admin_menu.php:3731 lib/admin_menu.php:3785
+msgid "your new username"
+msgstr ""
+
+#: lib/admin_menu.php:3732 lib/admin_menu.php:3786
+msgid "your new user's email"
+msgstr ""
+
+#: lib/admin_menu.php:3733
+msgid "your new user's password"
+msgstr ""
+
+#: lib/admin_menu.php:3755
+msgid ""
+"This email will be received by the admin when a new user registers on the "
+"website.\n"
+"          Be aware, if you add html tags to this email you must have the "
+"allow HTML tags option set to yes.\n"
+"          Also at the bottom you can see a list of tags you can use in the "
+"email body."
+msgstr ""
+
+#: lib/advanced_search.php:202 top-main-menu.php:34
+#: top-main-menu_responsive.php:34
+msgid "Advanced Search"
+msgstr "Cautare Avansata"
+
+#: lib/advanced_search.php:244
+msgid "Name"
+msgstr "Nume"
+
+#: lib/advanced_search.php:245
+msgid "Visits"
+msgstr "Vizite"
+
+#: lib/advanced_search.php:264
+msgid "Search Results"
+msgstr "Rezultate cautare"
+
+#: lib/advanced_search.php:368 lib/user_profile.php:87
+msgid "No ads posted."
+msgstr "Nu sunt anunturi"
+
+#: lib/advanced_search.php:393
+msgid "Search Options"
+msgstr "Optiuni Cautare"
+
+#: lib/advanced_search.php:409
+msgid "Keyword"
+msgstr "Cuvant"
+
+#: lib/advanced_search.php:413
+msgid "Min Price"
+msgstr "Pret Min"
+
+#: lib/advanced_search.php:416
+msgid "Max Price"
+msgstr "Pre Max"
+
+#: lib/advanced_search.php:420
+msgid "Filter by Location"
+msgstr "Filtrare dupa locatie"
+
+#: lib/advanced_search.php:421 lib/my_account/edit_ad.php:495
+#: lib/post_new.php:107
+msgid "Select Location"
+msgstr "Selectare locatie"
+
+#: lib/advanced_search.php:425
+msgid "Filter by Category"
+msgstr "Filtrare dupa categorie"
+
+#: lib/advanced_search.php:426 lib/my_account/edit_ad.php:502
+#: lib/post_new.php:243
+msgid "Select Category"
+msgstr "Selectare categorie"
+
+#: lib/advanced_search.php:457
+msgid "Refine Search"
+msgstr "Redefinire Cautare"
+
+#: lib/all_categories.php:25
+msgid "All Categories"
+msgstr "Toate Categoriile"
+
+#: lib/all_locations.php:26
+msgid "All Locations"
+msgstr "Toate Locatiile"
+
+#: lib/blog_page.php:29
+msgid "All Blog Posts"
+msgstr ""
+
+#: lib/blog_page.php:49
+msgid "There are no blog posts."
+msgstr ""
+
+#: lib/gateways/mb_mem.php:34 lib/gateways/moneybookers_listing.php:109
+#: lib/gateways/payza_listing.php:110
+msgid "Please wait, your order is being processed..."
+msgstr ""
+
+#: lib/gateways/mb_mem.php:55 lib/gateways/paypal_mem.php:57
+msgid "Membership Pack"
+msgstr "Pachet membri"
+
+#: lib/gateways/moneybookers_listing.php:39 lib/gateways/paypal_listing.php:66
+#: lib/gateways/payza_listing.php:39 lib/my_account/edit_ad.php:143
+msgid "Base Fee"
+msgstr "Taxa de baza"
+
+#: lib/gateways/moneybookers_listing.php:50 lib/gateways/paypal_listing.php:77
+#: lib/gateways/payza_listing.php:50 lib/my_account/edit_ad.php:152
+#: lib/post_new.php:605
+msgid "Extra Images Fee"
+msgstr ""
+
+#: lib/gateways/moneybookers_listing.php:68 lib/gateways/paypal_listing.php:95
+#: lib/gateways/payza_listing.php:68 lib/my_account/edit_ad.php:170
+msgid "Featured Fee"
+msgstr ""
+
+#: lib/login_register/login.php:79 lib/login_register/login.php:245
+#: lib/login_register/login.php:258
+msgid "Sorry, that key does not appear to be valid."
+msgstr ""
+
+#: lib/login_register/login.php:94 lib/login_register/login.php:117
+msgid "Retrieve Password"
+msgstr ""
+
+#: lib/login_register/login.php:103
+msgid "Please enter your information here. We will send you a new password."
+msgstr ""
+
+#: lib/login_register/login.php:109
+msgid "Username or Email:"
+msgstr ""
+
+#: lib/login_register/login.php:126 lib/login_register/login.php:450
+#: lib/login_register/register.php:131
+msgid "Are you lost?"
+msgstr ""
+
+#: lib/login_register/login.php:130 lib/login_register/login.php:392
+#: lib/login_register/register.php:60 lib/login_register/register.php:132
+msgid "Login"
+msgstr "Logare"
+
+#: lib/login_register/login.php:170
+msgid "Retrieve Error"
+msgstr ""
+
+#: lib/login_register/login.php:175
+#, php-format
+msgid ""
+"Sorry, that user does not seem to exist in our database. Perhaps you have "
+"the wrong username or e-mail address? <a href=\"%s\">Try again</a>."
+msgstr ""
+
+#: lib/login_register/login.php:196
+msgid ""
+"Someone has asked to reset the password for the following site and username."
+msgstr ""
+
+#: lib/login_register/login.php:198 lib/login_register/login.php:274
+#: lib/login_register/register.php:54 lib/login_register/sett.php:110
+#, php-format
+msgid "Username: %s"
+msgstr ""
+
+#: lib/login_register/login.php:199
+msgid ""
+"To reset your password visit the following address, otherwise just ignore "
+"this email and nothing will happen."
+msgstr ""
+
+#: lib/login_register/login.php:203 lib/login_register/sett.php:122
+#, php-format
+msgid "[%s] Password Reset"
+msgstr ""
+
+#: lib/login_register/login.php:209
+msgid "There Was a Problem"
+msgstr ""
+
+#: lib/login_register/login.php:210 lib/login_register/login.php:283
+#: lib/login_register/sett.php:128
+msgid "The e-mail could not be sent."
+msgstr ""
+
+#: lib/login_register/login.php:211 lib/login_register/login.php:284
+msgid "Possible reason: your host may have disabled the mail() function..."
+msgstr ""
+
+#: lib/login_register/login.php:216
+#, php-format
+msgid "The e-mail was sent successfully to %s's e-mail address."
+msgstr ""
+
+#: lib/login_register/login.php:217 lib/login_register/login.php:290
+msgid "Check your e-mail first, of course"
+msgstr ""
+
+#: lib/login_register/login.php:218 lib/login_register/login.php:291
+msgid "Click here to login!"
+msgstr ""
+
+#: lib/login_register/login.php:244 lib/login_register/login.php:257
+#: lib/login_register/login.php:282
+msgid "<h1>Problem</h1>"
+msgstr ""
+
+#: lib/login_register/login.php:275 lib/login_register/register.php:55
+#, php-format
+msgid "Password: %s"
+msgstr ""
+
+#: lib/login_register/login.php:278
+#, php-format
+msgid "[%s] Your new password"
+msgstr ""
+
+#: lib/login_register/login.php:288
+msgid "<h1>Success!</h1>"
+msgstr ""
+
+#: lib/login_register/login.php:289
+msgid "Your new password is in the mail."
+msgstr ""
+
+#: lib/login_register/login.php:293
+#, php-format
+msgid "Password Lost and Changed for user: %s"
+msgstr ""
+
+#: lib/login_register/login.php:294
+#, php-format
+msgid "[%s] Password Lost/Change"
+msgstr ""
+
+#: lib/login_register/login.php:376
+msgid "Your session has expired."
+msgstr ""
+
+#: lib/login_register/login.php:379
+msgid "<strong>Error</strong>: The password field is empty."
+msgstr ""
+
+#: lib/login_register/login.php:400
+msgid ""
+"We have sent a confirmation message to your email address.<br/>\n"
+"\t\t\t\t\tPlease follow the instructions in the email and get back to this "
+"page."
+msgstr ""
+
+#: lib/login_register/login.php:421 lib/login_register/register.php:107
+msgid "Username:"
+msgstr "Username:"
+
+#: lib/login_register/login.php:426
+msgid "Password:"
+msgstr "Parola:"
+
+#: lib/login_register/login.php:432
+msgid "Keep me logged in"
+msgstr ""
+
+#: lib/login_register/login.php:440
+msgid "Sign in"
+msgstr "Logare"
+
+#: lib/login_register/login.php:455
+msgid "Password Lost and Found"
+msgstr ""
+
+#: lib/login_register/login.php:455 lib/login_register/register.php:133
+msgid "Lost your password?"
+msgstr ""
+
+#: lib/login_register/register.php:53
+msgid "Registration Complete"
+msgstr ""
+
+#: lib/login_register/register.php:55
+msgid "emailed to you"
+msgstr ""
+
+#: lib/login_register/register.php:56
+#, php-format
+msgid "E-mail: %s"
+msgstr ""
+
+#: lib/login_register/register.php:57
+msgid ""
+"Please check your <strong>Junk Mail</strong> if your account information "
+"does not appear within 5 minutes."
+msgstr ""
+
+#: lib/login_register/register.php:112
+msgid "E-mail:"
+msgstr "Adresa E-mail:"
+
+#: lib/login_register/register.php:120
+msgid "A password will be emailed to you."
+msgstr ""
+
+#: lib/login_register/register.php:133
+msgid "Password Lost?"
+msgstr ""
+
+#: lib/login_register/register.php:163
+msgid "Registration Disabled"
+msgstr ""
+
+#: lib/login_register/register.php:167
+msgid "User registration is currently not allowed."
+msgstr ""
+
+#: lib/login_register/register.php:168
+msgid "Go back to the blog"
+msgstr ""
+
+#: lib/login_register/register.php:193
+msgid "<strong>ERROR</strong>: Please enter a username."
+msgstr ""
+
+#: lib/login_register/register.php:195
+msgid ""
+"<strong>ERROR</strong>: This username is invalid because it uses illegal "
+"characters. Please enter a valid username."
+msgstr ""
+
+#: lib/login_register/register.php:198
+msgid ""
+"<strong>ERROR</strong>: This username is already registered, please choose "
+"another one."
+msgstr ""
+
+#: lib/login_register/register.php:203
+msgid "<strong>ERROR</strong>: Please type your e-mail address."
+msgstr ""
+
+#: lib/login_register/register.php:205
+msgid "<strong>ERROR</strong>: The email address isn&#8217;t correct."
+msgstr ""
+
+#: lib/login_register/register.php:208
+msgid ""
+"<strong>ERROR</strong>: This email is already registered, please choose "
+"another one."
+msgstr ""
+
+#: lib/login_register/register.php:221
+#, php-format
+msgid ""
+"<strong>ERROR</strong>: Couldn&#8217;t register you... please contact the <a "
+"href=\"mailto:%s\">webmaster</a> !"
+msgstr ""
+
+#: lib/login_register/sett.php:65
+msgid "<strong>ERROR</strong>: Enter a username or e-mail address."
+msgstr ""
+
+#: lib/login_register/sett.php:69
+msgid ""
+"<strong>ERROR</strong>: There is no user registered with that email address."
+msgstr ""
+
+#: lib/login_register/sett.php:82
+msgid "<strong>ERROR</strong>: Invalid username or e-mail."
+msgstr ""
+
+#: lib/login_register/sett.php:96
+msgid "Password reset is not allowed for this user"
+msgstr ""
+
+#: lib/login_register/sett.php:108
+msgid "Someone requested that the password be reset for the following account:"
+msgstr ""
+
+#: lib/login_register/sett.php:111
+msgid "If this was a mistake, just ignore this email and nothing will happen."
+msgstr ""
+
+#: lib/login_register/sett.php:112
+msgid "To reset your password, visit the following address:"
+msgstr ""
+
+#: lib/login_register/sett.php:128
+msgid ""
+"Possible reason: your host may have disabled the \n"
+"\t\tmail() function..."
+msgstr ""
+
+#: lib/my_account/active_listings.php:32
+msgid "Active Listings"
+msgstr ""
+
+#: lib/my_account/active_listings.php:55
+msgid "There are no active listings yet."
+msgstr ""
+
+#: lib/my_account/close_ad.php:19
+msgid "Close Listing"
+msgstr ""
+
+#: lib/my_account/close_ad.php:58
+#, php-format
+msgid "Close Listing - %s"
+msgstr ""
+
+#: lib/my_account/close_ad.php:67
+#, php-format
+msgid "Your item has been closed. <a href=\"%s\">Return to your account</a>."
+msgstr ""
+
+#: lib/my_account/close_ad.php:84
+msgid "Are you sure you want to close this advert?"
+msgstr ""
+
+#: lib/my_account/delete_ad.php:19
+msgid "Delete Listing"
+msgstr ""
+
+#: lib/my_account/delete_ad.php:58
+#, php-format
+msgid "Delete Listing - %s"
+msgstr ""
+
+#: lib/my_account/delete_ad.php:67
+#, php-format
+msgid "Your item has been deleted. <a href=\"%s\">Return to your account</a>."
+msgstr ""
+
+#: lib/my_account/delete_ad.php:83
+msgid "Are you sure you want to delete this item?"
+msgstr ""
+
+#: lib/my_account/edit_ad.php:20
+msgid "Edit Listing"
+msgstr ""
+
+#: lib/my_account/edit_ad.php:240
+#, php-format
+msgid "Edit Listing - %s"
+msgstr ""
+
+#: lib/my_account/edit_ad.php:252
+msgid ""
+"Your listing has been updated and but is not live. The admin must approve it "
+"before it goes live."
+msgstr ""
+
+#: lib/my_account/edit_ad.php:259 lib/my_account/edit_ad.php:269
+#, php-format
+msgid ""
+"Your listing has been updated and is live now. <a href=\"%s\"><strong>Click "
+"here</strong></a> to see your listing."
+msgstr ""
+
+#: lib/my_account/edit_ad.php:276
+msgid ""
+"You have added extra options to your listing. In order to publish your "
+"listing you need to pay for the options."
+msgstr ""
+
+#: lib/my_account/edit_ad.php:295
+msgid "Total"
+msgstr ""
+
+#: lib/my_account/edit_ad.php:315 lib/my_account/purchase_mem.php:53
+#: lib/post_new.php:846
+msgid "Pay by PayPal"
+msgstr ""
+
+#: lib/my_account/edit_ad.php:318 lib/my_account/purchase_mem.php:56
+#: lib/post_new.php:849
+msgid "Pay by MoneyBookers/Skrill"
+msgstr ""
+
+#: lib/my_account/edit_ad.php:321 lib/my_account/purchase_mem.php:59
+#: lib/post_new.php:852
+msgid "Pay by Payza"
+msgstr ""
+
+#: lib/my_account/edit_ad.php:327 lib/my_account/purchase_mem.php:65
+#: lib/post_new.php:859
+#, php-format
+msgid "Bank Details: %s"
+msgstr ""
+
+#: lib/my_account/edit_ad.php:370
+msgid "Add Images"
+msgstr ""
+
+#: lib/my_account/edit_ad.php:376
+msgid "Cancel upload"
+msgstr ""
+
+#: lib/my_account/edit_ad.php:380 lib/my_account/edit_ad.php:456
+#: lib/my_account/messages.php:101 lib/my_account/messages.php:156
+#: lib/my_account/messages.php:267 lib/my_account/messages.php:385
+#: single-ad.php:699
+msgid "Delete"
+msgstr ""
+
+#: lib/my_account/edit_ad.php:485
+msgid "Your listing title"
+msgstr ""
+
+#: lib/my_account/edit_ad.php:499 lib/post_new.php:235 lib/post_new.php:1170
+#: single-ad.php:615
+msgid "Category"
+msgstr ""
+
+#: lib/my_account/edit_ad.php:519 lib/post_new.php:330 lib/post_new.php:1022
+#: single-ad.php:451
+msgid "Description"
+msgstr ""
+
+#: lib/my_account/edit_ad.php:554
+msgid "Feature listing?"
+msgstr ""
+
+#: lib/my_account/edit_ad.php:564
+msgid "Save Listing"
+msgstr ""
+
+#: lib/my_account/expired_listings.php:65
+msgid "There are no closed listings yet."
+msgstr ""
+
+#: lib/my_account/mem_packs.php:32
+msgid "Current Membership"
+msgstr ""
+
+#: lib/my_account/mem_packs.php:47
+msgid "Remaining Normal Ads"
+msgstr ""
+
+#: lib/my_account/mem_packs.php:52
+msgid "Remaining Featured Ads"
+msgstr ""
+
+#: lib/my_account/mem_packs.php:70 lib/my_account/purchase_mem.php:25
+msgid "Get Membership Packs"
+msgstr ""
+
+#: lib/my_account/mem_packs.php:81
+msgid "No packs yet added."
+msgstr ""
+
+#: lib/my_account/mem_packs.php:88
+msgid "Pack Name"
+msgstr ""
+
+#: lib/my_account/mem_packs.php:89
+msgid "Ads Number"
+msgstr ""
+
+#: lib/my_account/mem_packs.php:91
+msgid "Featured Included?"
+msgstr ""
+
+#: lib/my_account/mem_packs.php:92
+msgid "Cost"
+msgstr ""
+
+#: lib/my_account/mem_packs.php:112
+msgid "Purchase This"
+msgstr ""
+
+#: lib/my_account/messages.php:30
+msgid "Private Messages"
+msgstr ""
+
+#: lib/my_account/messages.php:34
+msgid "Messaging Home"
+msgstr ""
+
+#: lib/my_account/messages.php:35
+msgid "Send New Message"
+msgstr ""
+
+#: lib/my_account/messages.php:36
+msgid "Inbox"
+msgstr ""
+
+#: lib/my_account/messages.php:44 lib/my_account/messages.php:331
+msgid "Sent Items"
+msgstr ""
+
+#: lib/my_account/messages.php:69
+msgid "Latest Received Messages"
+msgstr ""
+
+#: lib/my_account/messages.php:81 lib/my_account/messages.php:246
+msgid "From User"
+msgstr ""
+
+#: lib/my_account/messages.php:82 lib/my_account/messages.php:136
+#: lib/my_account/messages.php:247 lib/my_account/messages.php:364
+#: lib/my_account/messages.php:803 single-ad.php:302
+msgid "Subject"
+msgstr ""
+
+#: lib/my_account/messages.php:83 lib/my_account/messages.php:137
+#: lib/my_account/messages.php:248 lib/my_account/messages.php:365
+msgid "Date"
+msgstr ""
+
+#: lib/my_account/messages.php:100 lib/my_account/messages.php:155
+#: lib/my_account/messages.php:266 lib/my_account/messages.php:384
+msgid "Read"
+msgstr ""
+
+#: lib/my_account/messages.php:108 lib/my_account/messages.php:164
+#: lib/my_account/messages.php:283 lib/my_account/messages.php:401
+msgid "No messages here."
+msgstr ""
+
+#: lib/my_account/messages.php:123
+msgid "Latest Sent Items"
+msgstr ""
+
+#: lib/my_account/messages.php:135 lib/my_account/messages.php:363
+msgid "To User"
+msgstr ""
+
+#: lib/my_account/messages.php:190
+msgid "My Inbox"
+msgstr ""
+
+#: lib/my_account/messages.php:245 lib/my_account/messages.php:362
+msgid "Select All"
+msgstr ""
+
+#: lib/my_account/messages.php:272 lib/my_account/messages.php:390
+msgid "Delete Selected"
+msgstr ""
+
+#: lib/my_account/messages.php:445
+msgid "Delete Multiple Messages: "
+msgstr ""
+
+#: lib/my_account/messages.php:450
+msgid "Delete Message: "
+msgstr ""
+
+#: lib/my_account/messages.php:482
+msgid "No messsages selected."
+msgstr ""
+
+#: lib/my_account/messages.php:494 lib/my_account/messages.php:506
+msgid "Cancel"
+msgstr ""
+
+#: lib/my_account/messages.php:497 lib/my_account/messages.php:509
+msgid "Confirm Deletion"
+msgstr ""
+
+#: lib/my_account/messages.php:546
+msgid "Read Message: "
+msgstr ""
+
+#: lib/my_account/messages.php:554
+#, php-format
+msgid "File Attached: %s"
+msgstr ""
+
+#: lib/my_account/messages.php:560
+msgid "Reply"
+msgstr ""
+
+#: lib/my_account/messages.php:755
+msgid "Your message has been sent."
+msgstr ""
+
+#: lib/my_account/messages.php:757
+msgid ""
+"Your message has been sent but the receiver will receive it only after "
+"moderation."
+msgstr ""
+
+#: lib/my_account/messages.php:769
+msgid "You cannot send a message to yourself."
+msgstr ""
+
+#: lib/my_account/messages.php:770
+#, php-format
+msgid "Wrong File format: %s"
+msgstr ""
+
+#: lib/my_account/messages.php:773
+msgid "ERROR! wrong username provided."
+msgstr ""
+
+#: lib/my_account/messages.php:788
+msgid "Send Private Message to: "
+msgstr ""
+
+#: lib/my_account/messages.php:797
+msgid "Send To"
+msgstr ""
+
+#: lib/my_account/messages.php:821 single-ad.php:313
+msgid "Message"
+msgstr ""
+
+#: lib/my_account/messages.php:827
+msgid "Attach File"
+msgstr ""
+
+#: lib/my_account/messages.php:828
+msgid "Only PDF, ZIP, Office files and Images."
+msgstr ""
+
+#: lib/my_account/messages.php:839 single-ad.php:322
+msgid "Send Message"
+msgstr "Trimite Mesaj"
+
+#: lib/my_account/my_account_home.php:24
+msgid "My Latest Active Listings"
+msgstr "Anunturi Active"
+
+#: lib/my_account/my_account_home.php:42 lib/my_account/my_account_home.php:74
+msgid "There are no listings yet."
+msgstr "Nu sunt anunturi inca"
+
+#: lib/my_account/my_account_home.php:59
+msgid "My Unpaid/Pending Listings"
+msgstr "Anunturi Nepublicate/Neplatite"
+
+#: lib/my_account/personal_info.php:32
+msgid "Personal Information"
+msgstr ""
+
+#: lib/my_account/personal_info.php:59
+msgid "Passwords do not match!"
+msgstr ""
+
+#: lib/my_account/personal_info.php:107
+msgid "Your profile information was updated."
+msgstr ""
+
+#: lib/my_account/personal_info.php:118
+msgid "Profile Description"
+msgstr ""
+
+#: lib/my_account/personal_info.php:124
+msgid "New Password"
+msgstr ""
+
+#: lib/my_account/personal_info.php:130
+msgid "Repeat Password"
+msgstr ""
+
+#: lib/my_account/personal_info.php:136
+msgid "Profile Avatar"
+msgstr ""
+
+#: lib/my_account/personal_info.php:138
+msgid "max file size: 1mb. Formats: jpeg, jpg, png, gif"
+msgstr ""
+
+#: lib/my_account/personal_info.php:147
+msgid "Save"
+msgstr ""
+
+#: lib/my_account/purchase_mem.php:36
+msgid "No such pack."
+msgstr ""
+
+#: lib/my_account/purchase_mem.php:42
+#, php-format
+msgid ""
+"You are about to pay for a membership pack. Cost: %s. Use the payment "
+"methods listed below."
+msgstr ""
+
+#: lib/my_account/unpublished_listings.php:55
+msgid "There are no unpublished listings yet."
+msgstr ""
+
+#: lib/post_new.php:29
+msgid "Post new Listing"
+msgstr "Adauga Anunt Nou"
+
+#: lib/post_new.php:41
+msgid "Write Listing"
+msgstr "Detalii Principale"
+
+#: lib/post_new.php:42
+msgid "Add Photos"
+msgstr "Adauga Poze"
+
+#: lib/post_new.php:43
+msgid "Review & Publish"
+msgstr "Vizualizare si Publicare"
+
+#: lib/post_new.php:85
+msgid "Your ad title"
+msgstr "Titlu"
+
+#: lib/post_new.php:119 lib/post_new.php:146
+msgid "Select SubLocation"
+msgstr "Selectare Sublocatie"
+
+#: lib/post_new.php:311
+msgid "Item Price"
+msgstr "Pret"
+
+#: lib/post_new.php:341
+msgid "Feature ad?"
+msgstr "Promoveaza ?"
+
+#: lib/post_new.php:349
+msgid "Tags"
+msgstr ""
+
+#: lib/post_new.php:366 lib/post_new.php:522
+msgid "Next Step"
+msgstr "Urmatorul"
+
+#: lib/post_new.php:400
+msgid "Images"
+msgstr "Imagini"
+
+#: lib/post_new.php:519 lib/post_new.php:886
+msgid "Go Back"
+msgstr "Inapoi"
+
+#: lib/post_new.php:583
+msgid "Base Listing Fee"
+msgstr "Taxa de baza"
+
+#: lib/post_new.php:595
+msgid "Featured Listing Fee"
+msgstr "Taxa promovare"
+
+#: lib/post_new.php:641
+msgid "Thank you for posting your item with us."
+msgstr "Multumim pentru anuntul postat"
+
+#: lib/post_new.php:657
+#, php-format
+msgid ""
+"Your listing isn't yet live, the admin needs to approve it. <a href='%s'>Go "
+"back to your account</a>."
+msgstr ""
+"Anuntul tau nu este inca live pe site. Administratorul va trebui sa il "
+"aprobe.   <a href='%s'>Intoarece in cont</a>."
+
+#: lib/post_new.php:734
+msgid ""
+"It seems you had credits in your account for posting the ad. So now your ad "
+"has been paid."
+msgstr ""
+
+#: lib/post_new.php:739
+msgid ""
+"However your ad is not yet live. The admin of the site will review and "
+"publish it."
+msgstr ""
+
+#: lib/post_new.php:758
+#, php-format
+msgid "You can view your ad live on the site <a href=\"%s\">here</a>."
+msgstr ""
+
+#: lib/post_new.php:771
+msgid ""
+"Thank you for posting your ad with us. Below is the total price that you "
+"need to pay in order to put your ad live.<br/>\n"
+"\t\t\tClick the pay button and you will be redirected..."
+msgstr ""
+
+#: lib/post_new.php:808
+msgid "Total to Pay"
+msgstr ""
+
+#: lib/post_new.php:826
+msgid "See your listing"
+msgstr ""
+
+#: lib/post_new.php:890
+msgid "Finalize and Publish Item"
+msgstr ""
+
+#: lib/post_new.php:953 single-ad.php:382
+msgid "Unique ID"
+msgstr "ID Unic"
+
+#: lib/post_new.php:1036 single-ad.php:465
+msgid "Image Gallery"
+msgstr "Galerie Imagini"
+
+#: lib/post_new.php:1055 single-ad.php:484
+msgid "No images."
+msgstr "Fara imagini"
+
+#: lib/post_new.php:1071 single-ad.php:500
+msgid "Map Location"
+msgstr "Localizare pe harta"
+
+#: lib/post_new.php:1158 single-ad.php:603
+msgid "Other Details"
+msgstr "Alte Informatii"
+
+#: lib/post_new.php:1164 single-ad.php:609
+msgid "Posted by"
+msgstr "Postat de catre"
+
+#: lib/post_new.php:1190 single-ad.php:635
+msgid "Viewed"
+msgstr "Vizualizat"
+
+#: lib/post_new.php:1191 single-ad.php:636
+msgid "times"
+msgstr "ori"
+
+#: lib/post_new_post.php:174
+msgid "You cannot leave the listing title blank!"
+msgstr "Nu se poate lasa titlul articolului necompletat!"
+
+#: lib/post_new_post.php:175
+msgid "You cannot leave the listing description blank!"
+msgstr "Nu se poate lasa descrierea articolului necompletat!"
+
+#: lib/post_new_post.php:177
+msgid "You cannot leave the listing category blank!"
+msgstr "Nu se poate lasa categoria articolului necompletat!"
+
+#: lib/post_new_post.php:181
+msgid "You cannot leave the listing location blank!"
+msgstr "Nu se poate lasa locatia articolului necompletat!"
+
+#: lib/post_new_post.php:182
+msgid "You cannot leave the listing price blank!"
+msgstr "Nu se poate lasa pretul articolului necompletat!"
+
+#: lib/user_profile.php:12 lib/user_profile.php:23
+msgid "User Profile"
+msgstr "Profil Utilizator"
+
+#: lib/user_profile.php:32
+msgid "No personal info defined."
+msgstr "Fara informatii personale."
+
+#: lib/user_profile.php:56
+msgid "User Latest Posted ads"
+msgstr "Ultimele anunturi ale utilizatorului"
+
+#: lib/widgets/browse-by-category.php:216
+#: lib/widgets/category-with-images.php:90
+msgid "See More Categories"
+msgstr "Vezi mai multe categorii"
+
+#: lib/widgets/browse-by-category.php:231
+#: lib/widgets/browse-by-location.php:268
+#: lib/widgets/category-with-images.php:105 lib/widgets/featured-ads.php:82
+#: lib/widgets/latest-posted-ads.php:77
+msgid "Title"
+msgstr "Titlu"
+
+#: lib/widgets/browse-by-category.php:236
+#: lib/widgets/browse-by-location.php:273
+msgid "Number of Columns"
+msgstr ""
+
+#: lib/widgets/browse-by-category.php:242
+#: lib/widgets/browse-by-location.php:279
+msgid "Number of Rows"
+msgstr ""
+
+#: lib/widgets/browse-by-category.php:249
+#: lib/widgets/category-with-images.php:111
+msgid "Only show categories below"
+msgstr ""
+
+#: lib/widgets/browse-by-category.php:255
+#: lib/widgets/category-with-images.php:117
+msgid "Categories to show"
+msgstr ""
+
+#: lib/widgets/browse-by-location.php:253
+msgid "See More Locations"
+msgstr "Vezi mai multe locatii"
+
+#: lib/widgets/browse-by-location.php:286
+msgid "Only show locations below"
+msgstr ""
+
+#: lib/widgets/browse-by-location.php:292
+msgid "Locations to show"
+msgstr ""
+
+#: lib/widgets/category-with-images.php:93
+msgid "There are no categories defined."
+msgstr ""
+
+#: lib/widgets/featured-ads.php:66 lib/widgets/latest-posted-ads.php:62
+msgid "Sorry, there are no posted ads yet."
+msgstr ""
+
+#: lib/widgets/featured-ads.php:89 lib/widgets/latest-posted-ads.php:84
+msgid "Show ads limit"
+msgstr ""
+
+#: single-ad.php:131
+msgid "Report offensive ad"
+msgstr ""
+
+#: single-ad.php:133
+msgid "This ad has been reported as offensive"
+msgstr ""
+
+#: single-ad.php:149
+msgid "Thank you! Your report has been submitted."
+msgstr ""
+
+#: single-ad.php:168
+msgid "Slow down buddy! You reported this before."
+msgstr ""
+
+#: single-ad.php:186
+msgid "Report this ad"
+msgstr ""
+
+#: single-ad.php:193
+msgid "Reason for reporting"
+msgstr ""
+
+#: single-ad.php:202
+msgid "Submit Report"
+msgstr ""
+
+#: single-ad.php:251
+msgid "From Email:"
+msgstr ""
+
+#: single-ad.php:259
+msgid "Thank you! Your message has been sent."
+msgstr ""
+
+#: single-ad.php:277
+msgid "Slow down buddy!."
+msgstr ""
+
+#: single-ad.php:296
+msgid "Contact"
+msgstr ""
+
+#: single-ad.php:307
+msgid "Your Email"
+msgstr ""
+
+#: single-ad.php:705
+msgid "Report this advert"
+msgstr ""
+
+#: single-ad.php:715
+msgid "Seller Details"
+msgstr ""
+
+#: single-ad.php:737
+msgid "Contact seller"
+msgstr ""
+
+#: taxonomy.php:74
+msgid "All Posted Items"
+msgstr "Toate anunturile postate"
+
+#: taxonomy.php:75
+#, php-format
+msgid "Latest Posted Items in %s"
+msgstr ""
+
+#: top-main-menu.php:33 top-main-menu_responsive.php:33
+msgid "All Listings"
+msgstr "Toate anunturile"
+
+#: top-main-menu.php:35 top-main-menu_responsive.php:35
+msgid "Show All Categories"
+msgstr "Toate Categoriile"
+
+#: top-main-menu.php:36 top-main-menu_responsive.php:36
+msgid "Show All Locations"
+msgstr "Toate Locatiile"

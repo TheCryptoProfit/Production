@@ -1,0 +1,97 @@
+[06-Jan-2018 21:11:00 UTC] wizard_viewed
+[06-Jan-2018 21:37:13 UTC] wizard_hidden
+[06-Jan-2018 21:37:13 UTC] wizard_disabled
+[07-Jan-2018 01:08:07 UTC] PHP Fatal error:  Uncaught Error: Class 'SiteOrigin_Panels_Cache_Renderer' not found in /home4/thecryq8/public_html/classified/wp-content/plugins/siteorigin-panels/siteorigin-panels.php:70
+Stack trace:
+#0 /home4/thecryq8/public_html/classified/wp-content/plugins/siteorigin-panels/siteorigin-panels.php(79): SiteOrigin_Panels->__construct()
+#1 /home4/thecryq8/public_html/classified/wp-content/plugins/siteorigin-panels/siteorigin-panels.php(527): SiteOrigin_Panels::single()
+#2 /home4/thecryq8/public_html/classified/wp-settings.php(305): include_once('/home4/thecryq8...')
+#3 /home4/thecryq8/public_html/classified/wp-config.php(89): require_once('/home4/thecryq8...')
+#4 /home4/thecryq8/public_html/classified/wp-load.php(37): require_once('/home4/thecryq8...')
+#5 /home4/thecryq8/public_html/classified/wp-admin/admin-ajax.php(22): require_once('/home4/thecryq8...')
+#6 {main}
+  thrown in /home4/thecryq8/public_html/classified/wp-content/plugins/siteorigin-panels/siteorigin-panels.php on line 70
+[07-Jan-2018 01:58:50 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home4/thecryq8/public_html/classified/wp-content/plugins/optinmonster/OMAPI/Widget.php on line 177
+[07-Jan-2018 01:58:50 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home4/thecryq8/public_html/classified/wp-content/plugins/optinmonster/OMAPI/Widget.php on line 177
+[07-Jan-2018 02:02:34 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home4/thecryq8/public_html/classified/wp-content/plugins/optinmonster/OMAPI/Widget.php on line 177
+[07-Jan-2018 02:56:21 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home4/thecryq8/public_html/classified/wp-content/plugins/optinmonster/OMAPI/Widget.php on line 177
+[07-Jan-2018 03:06:34 UTC] WordPress database error Table 'thecryq8_ss_dbnamec25.wp_cn_social_icon' doesn't exist for query 
+	INSERT INTO `wp_cn_social_icon` (`id`, `title`, `url`, `image_url`, `sortorder`, `date_upload`, `target`) VALUES
+	(1, 'facebook', 'http://facebook.com/your-fan-page', '1368459524_facebook.png', 1, '1368459524', 1),
+	(2, 'twitter', 'http://twitter/username', '1368459556_twitter.png', 2, '1368459556', 1),
+	(3, 'flickr', 'http://flickr.com/?username', '1368459641_flicker.png', 3, '1368459641', 1),
+	(4, 'linkedin', 'http://linkedin.com', '1368459699_in.png', 4, '1368459699', 1),
+	(5, 'youtube', 'http://youtube.com/user', '1368459724_youtube.png', 5, '1368459724', 1) made by activate_plugin, do_action('activate_easy-social-icons/easy-social-icons.php'), WP_Hook->do_action, WP_Hook->apply_filters, cnss_db_install, dbDelta
+[07-Jan-2018 03:27:11 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home4/thecryq8/public_html/classified/wp-content/plugins/optinmonster/OMAPI/Widget.php on line 177
+[07-Jan-2018 03:55:55 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home4/thecryq8/public_html/classified/wp-content/plugins/optinmonster/OMAPI/Widget.php on line 177
+[07-Jan-2018 18:47:03 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home4/thecryq8/public_html/classified/wp-content/plugins/optinmonster/OMAPI/Widget.php on line 177
+[08-Jan-2018 00:29:17 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home4/thecryq8/public_html/classified/wp-content/plugins/optinmonster/OMAPI/Widget.php on line 177
+[08-Jan-2018 00:29:17 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home4/thecryq8/public_html/classified/wp-content/plugins/optinmonster/OMAPI/Widget.php on line 177
+[09-Jan-2018 22:36:59 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home4/thecryq8/public_html/classified/wp-content/plugins/optinmonster/OMAPI/Widget.php on line 177
+[18-Jan-2018 11:15:59 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function split() in /home4/thecryq8/public_html/classified/wp-content/themes/ClassifiedTheme/autosuggest.php:22
+Stack trace:
+#0 /home4/thecryq8/public_html/classified/wp-includes/class-wp-hook.php(286): ClassifiedTheme_autosuggest_it('')
+#1 /home4/thecryq8/public_html/classified/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#2 /home4/thecryq8/public_html/classified/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /home4/thecryq8/public_html/classified/wp-admin/admin-ajax.php(112): do_action('wp_ajax_nopriv_...')
+#4 {main}
+  thrown in /home4/thecryq8/public_html/classified/wp-content/themes/ClassifiedTheme/autosuggest.php on line 22
+[19-Jan-2018 03:05:32 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function split() in /home4/thecryq8/public_html/classified/wp-content/themes/ClassifiedTheme/autosuggest.php:22
+Stack trace:
+#0 /home4/thecryq8/public_html/classified/wp-includes/class-wp-hook.php(286): ClassifiedTheme_autosuggest_it('')
+#1 /home4/thecryq8/public_html/classified/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#2 /home4/thecryq8/public_html/classified/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /home4/thecryq8/public_html/classified/wp-admin/admin-ajax.php(112): do_action('wp_ajax_nopriv_...')
+#4 {main}
+  thrown in /home4/thecryq8/public_html/classified/wp-content/themes/ClassifiedTheme/autosuggest.php on line 22
+[19-Jan-2018 09:24:28 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function split() in /home4/thecryq8/public_html/classified/wp-content/themes/ClassifiedTheme/autosuggest.php:22
+Stack trace:
+#0 /home4/thecryq8/public_html/classified/wp-includes/class-wp-hook.php(286): ClassifiedTheme_autosuggest_it('')
+#1 /home4/thecryq8/public_html/classified/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#2 /home4/thecryq8/public_html/classified/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /home4/thecryq8/public_html/classified/wp-admin/admin-ajax.php(112): do_action('wp_ajax_nopriv_...')
+#4 {main}
+  thrown in /home4/thecryq8/public_html/classified/wp-content/themes/ClassifiedTheme/autosuggest.php on line 22
+[19-Jan-2018 13:11:48 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function split() in /home4/thecryq8/public_html/classified/wp-content/themes/ClassifiedTheme/autosuggest.php:22
+Stack trace:
+#0 /home4/thecryq8/public_html/classified/wp-includes/class-wp-hook.php(286): ClassifiedTheme_autosuggest_it('')
+#1 /home4/thecryq8/public_html/classified/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#2 /home4/thecryq8/public_html/classified/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /home4/thecryq8/public_html/classified/wp-admin/admin-ajax.php(112): do_action('wp_ajax_nopriv_...')
+#4 {main}
+  thrown in /home4/thecryq8/public_html/classified/wp-content/themes/ClassifiedTheme/autosuggest.php on line 22
+[25-Jan-2018 10:15:31 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function split() in /home4/thecryq8/public_html/classified/wp-content/themes/ClassifiedTheme/autosuggest.php:22
+Stack trace:
+#0 /home4/thecryq8/public_html/classified/wp-includes/class-wp-hook.php(286): ClassifiedTheme_autosuggest_it('')
+#1 /home4/thecryq8/public_html/classified/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#2 /home4/thecryq8/public_html/classified/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /home4/thecryq8/public_html/classified/wp-admin/admin-ajax.php(112): do_action('wp_ajax_nopriv_...')
+#4 {main}
+  thrown in /home4/thecryq8/public_html/classified/wp-content/themes/ClassifiedTheme/autosuggest.php on line 22
+[25-Jan-2018 18:46:20 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function split() in /home4/thecryq8/public_html/classified/wp-content/themes/ClassifiedTheme/autosuggest.php:22
+Stack trace:
+#0 /home4/thecryq8/public_html/classified/wp-includes/class-wp-hook.php(286): ClassifiedTheme_autosuggest_it('')
+#1 /home4/thecryq8/public_html/classified/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#2 /home4/thecryq8/public_html/classified/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /home4/thecryq8/public_html/classified/wp-admin/admin-ajax.php(112): do_action('wp_ajax_nopriv_...')
+#4 {main}
+  thrown in /home4/thecryq8/public_html/classified/wp-content/themes/ClassifiedTheme/autosuggest.php on line 22
+[25-Jan-2018 19:24:29 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function split() in /home4/thecryq8/public_html/classified/wp-content/themes/ClassifiedTheme/autosuggest.php:22
+Stack trace:
+#0 /home4/thecryq8/public_html/classified/wp-includes/class-wp-hook.php(286): ClassifiedTheme_autosuggest_it('')
+#1 /home4/thecryq8/public_html/classified/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#2 /home4/thecryq8/public_html/classified/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /home4/thecryq8/public_html/classified/wp-admin/admin-ajax.php(112): do_action('wp_ajax_nopriv_...')
+#4 {main}
+  thrown in /home4/thecryq8/public_html/classified/wp-content/themes/ClassifiedTheme/autosuggest.php on line 22
+[25-Jan-2018 21:27:45 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home4/thecryq8/public_html/classified/wp-content/plugins/optinmonster/OMAPI/Widget.php on line 177
+[25-Jan-2018 23:24:32 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home4/thecryq8/public_html/classified/wp-content/plugins/mojo-marketplace-wp-plugin/pages/mojo-themes.php on line 79
+[26-Jan-2018 04:37:30 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function split() in /home4/thecryq8/public_html/classified/wp-content/themes/ClassifiedTheme/autosuggest.php:22
+Stack trace:
+#0 /home4/thecryq8/public_html/classified/wp-includes/class-wp-hook.php(286): ClassifiedTheme_autosuggest_it('')
+#1 /home4/thecryq8/public_html/classified/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#2 /home4/thecryq8/public_html/classified/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /home4/thecryq8/public_html/classified/wp-admin/admin-ajax.php(112): do_action('wp_ajax_nopriv_...')
+#4 {main}
+  thrown in /home4/thecryq8/public_html/classified/wp-content/themes/ClassifiedTheme/autosuggest.php on line 22
+[26-Jan-2018 10:41:03 UTC] mojo_plugin_deactivated

@@ -1,0 +1,43 @@
+<wpml-config>
+	<admin-texts>
+		<key name="wpmchimpa_options">
+			<key name="cforms">
+				<key name="*">
+					<key name="fields">
+						<key name="*">
+							<key name="label"/>
+							<key name="opt">
+								<key name="choices">
+									<key name="*"></key>
+								</key>
+							</key>
+							<key name="groups">
+								<key name="*">
+									<key name="gname"></key>
+								</key>
+							</key>
+						</key>
+					</key>
+				</key>
+			</key>
+			<key name="suc_msg"/>
+			<key name="errorrf"/>
+			<key name="errorfe"/>
+			<key name="erroras"/>
+			<key name="errorue"/>
+			<key name="usyn_compt"/>
+			<key name="usyn_regpt"/>
+			<key name="themes">
+				<key name="*">
+					<key name="options">
+						<key name="button"/>
+						<key name="heading"/>
+						<key name="msg"/>
+						<key name="tag"/>
+						<key name="soc_head"/>
+					</key>
+				</key>
+			</key>
+		</key>
+	</admin-texts>
+</wpml-config>

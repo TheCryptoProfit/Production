@@ -1,0 +1,4 @@
+[20-Jan-2018 06:41:34 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home4/thecryq8/public_html/wp-content/themes/fox/index.php:1
+Stack trace:
+#0 {main}
+  thrown in /home4/thecryq8/public_html/wp-content/themes/fox/index.php on line 1

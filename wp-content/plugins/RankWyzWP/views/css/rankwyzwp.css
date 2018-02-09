@@ -1,0 +1,54 @@
+.settings-container {
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+.settings-panel  {
+    width: 700px;
+    float: none;
+    margin: 18px auto;
+}
+
+input.api-input {
+    width : 300px;
+}
+
+div.centered-text {
+    text-align: center;
+}
+
+.bootstrap-wrapper .form-horizontal .align-left {
+    text-align: left;
+}
+
+div.checkbox label {
+    display: inline;
+}
+
+.panel-body {
+    position: relative;
+}
+.right-corner-btn {
+    position: absolute;
+    right: 25px;
+    bottom: 40px;
+}
+
+.padding-select {
+    padding-left: 28px;
+}
+
+#sharedNetworksList_ul {
+    overflow-y: scroll;
+    max-height: 300px;
+}
+
+.anchors-list {
+    overflow-y: auto;
+    max-height: 200px;
+}
+
+.anchor-delete {
+    float: right;
+    cursor: pointer;
+}

@@ -1,0 +1,1200 @@
+/*
+ 
+
+ .login-submit-form p { width:100%; }
+ 
+ */
+ 
+@charset "UTF-8";
+@import url(http://fonts.googleapis.com/earlyaccess/alefhebrew.css);
+
+ /* == Add your own styles below this line ==
+--------------------------------------------*/
+ .post-new li h3 { width:98%; }
+
+ input { text-align: right;  direction: rtl; } 
+
+body
+{
+	font-family:'alef hebrew',Arial, Helvetica, sans-serif;
+}
+
+
+/*--- bread crumb --*/
+
+.cross_cross
+{
+	float:right; 
+	width:95% 
+}
+
+.cross_cross2
+{
+	float:right; 
+	width:95% 
+}
+
+
+.breadcrumb {
+	font-family:'alef hebrew',Arial, Helvetica, sans-serif ;
+}
+
+.breadcrumb a {
+	float: right;
+	padding: 5px 60px 5px 10px; 
+}
+/*since the first link does not have a triangle before it we can reduce the left padding to make it look consistent with other links*/
+.breadcrumb a:first-child {
+	padding-right: 46px;
+	border-radius: 5px 5px 0 0px; /*to match with the parent's radius*/
+}
+.breadcrumb a:first-child:before {
+	right: 14px;
+}
+.breadcrumb a:last-child {
+	border-radius: 0 0px 5px 5px; /*this was to prevent glitches on hover*/
+	padding-left: 20px;
+}
+
+
+/*adding the arrows for the breadcrumbs using rotated pseudo elements*/
+.breadcrumb a:after {
+	left: -18px; /*half of square's length*/
+	border-radius: 0 50px 0 5px;
+}
+
+/*we will use the :before element to show numbers*/
+.breadcrumb a:before {
+ 	right: 30px;
+	padding-left:5px;
+}
+
+/*---- end breadcrumb --*/
+
+ .my_category_image_holder
+{
+	float:right;
+}
+
+.my_category_image_holder img
+{
+	border-radius:5px 0px 0px 5px	
+}
+
+
+.my_image_div_cat_name
+{
+	border-radius:0px 5px 5px 0px	
+}
+
+.my_image_div_cat_name a:link, .my_image_div_cat_name a:visited
+{
+	font-family:'alef hebrew', Geneva, sans-serif
+}
+
+.see-more-tax
+{
+	float:right;
+}
+ 
+ .my_sub_title h3
+{
+	float:right;	
+}
+
+.my_sub_title p.class_p
+{
+	float:right;
+	padding-right:35px;
+}
+
+ .alignleft {
+	float: right;
+}
+
+.alignright {
+	float: left;
+}
+
+
+img.alignleft {
+	margin: 5px 0px 5px 20px;
+}
+
+.wp-caption.alignleft {
+	margin: 5px 0px 5px 10px;
+}
+
+img.alignright {
+	margin: 5px 20px 5px 0px;
+}
+
+.wp-caption.alignright {
+	margin: 5px 10px 5px 0px;
+}
+
+
+img.alignright {float:left; margin:0 1em 1em 0}
+img.alignleft {float:right; margin:0 0 1em 1em}
+img.aligncenter {margin-left: auto; margin-right: auto}
+.alignright {float:left; }
+.alignleft {float:right; }
+.aligncenter {margin-left: auto; margin-right: auto}
+
+
+.sitemile-table{font-family:'alef hebrew', Helvetica, sans-serif }
+  
+ #location-stuff ul.baca_loc
+{
+	padding-right:15px
+
+}
+
+.description_html_box_placeholder
+{
+	float:right;
+}
+
+.description_html_box_placeholder2
+{
+	float:right;
+}
+
+.multi_cat_placeholder_thing2
+{
+	float:right		
+}
+
+.multi_cat_placeholder_thing
+{
+	float:right	
+}
+
+
+.div_div2
+{
+	float:right;
+}
+
+.pk_lst_grd
+{
+	float:left;
+	margin-left:20px;	
+}
+
+.countdown_section
+{
+	float:right;
+	padding-left:4px;
+	color:#1F92D8;
+	margin-right:-4px;
+}
+.countdown_descr { float:right;  }
+
+.rss_icon_div
+{
+	float:right;
+}
+
+
+.padded_menu
+{
+	margin-right:5px	
+}
+
+
+#small_search_res li p { text-align:right; }
+
+
+.main-thing-menu ul li 
+{ 
+	float:right; 
+}
+
+.main-thing-menu ul li a:link , .main-thing-menu ul li a:visited
+{ 
+	font:			bold 14px/18px 'alef hebrew';
+	padding-right:		15px; 
+	padding-left: 		17px;
+}
+
+.main-thing-menu ul li a.hm_cls:link, .main-thing-menu ul li a.hm_cls:visited
+{ border-right:none }
+
+#right-sidebar {
+		float:left;
+	 }
+
+
+.button_mik 
+{
+    font: bold 12px/16px 'alef hebrew',Arial,Helvetica,sans-serif;
+ }
+
+
+#main
+{
+	text-align:right;
+	direction: rtl;
+	font-family:'alef hebrew',Arial, Helvetica, sans-serif; 
+}
+
+
+
+#wrapper
+{
+	direction: rtl;font-family:'alef hebrew',Arial, Helvetica, sans-serif; 
+}
+
+#content
+{
+	float:right;
+}
+
+.top-links ul li
+{
+	float:right;
+	margin-right:2px;
+	margin-left:2px;
+}
+
+.top-links a:link , .top-links a:visited
+{
+	font-family:'alef hebrew',Arial, Helvetica, sans-serif;	
+}
+
+
+
+
+
+.big_line_title
+{
+	font-family:  'alef hebrew',Arial, Helvetica, sans-serif;	
+}
+
+.small_line_title
+{
+	font-family:  'alef hebrew',Arial, Helvetica, sans-serif;	
+	margin:0 0 15px 0;
+}
+
+.widget-title { 	
+	font-family: 'alef hebrew',Arial, Helvetica, sans-serif;
+}
+
+.widget_conts
+{
+	padding:0 10px 10px 10px;	
+}
+
+
+#footer-widget-area div ul li .widget-title 
+{ 
+	text-align:right ;
+	padding-right:0;
+}
+ 
+#colophon
+{
+	font-family:'alef hebrew',Arial, Helvetica, sans-serif;
+}
+
+#site-info-left
+{
+	float:right
+}
+
+#site-info-right
+{
+	float:left
+}
+
+.post_grid
+{
+	float:right;
+	margin-left:5px;
+	margin-right:5px;
+}
+
+
+#steps ul li
+{
+	margin-left:25px
+}
+
+
+.breadcrumb-wrap { 
+	left:15px;
+	right:15px ;
+	
+	}
+	
+.stretch-area { 
+	right:0;
+	left:15px 
+	}	
+
+ .zaza {
+ float:right;
+ margin-left:6px;
+ }
+
+.box_title
+{
+	font-family: 'alef hebrew',Arial, Helvetica, sans-serif;
+}
+
+.auction_page_title h1 
+{ 
+	font-family:'alef hebrew',Arial, Helvetica, sans-serif;
+}
+
+.mms_mms
+{
+	float:right;
+}
+
+.ad-page-image-holder
+{
+	float:right;
+}
+
+.auction-page-details-holder
+{
+	float:left;
+}
+
+
+.auction-details li
+{
+	float:right;
+}
+
+.auction-details li img
+{
+	float:right;
+	margin-left:10px
+}
+
+.auction-details li h3
+{
+	float:right;
+}
+
+.auction-details li p
+{
+	float:right;
+}
+
+
+.auction-details1 li
+{
+	float:right;
+}
+
+.auction-details1 li img
+{
+	float:right;
+	margin-left:6px
+}
+
+.auction-details1 li h3
+{
+	float:right;
+	width:85px;
+}
+
+.auction-details1 li p
+{
+	float:right;
+	width:179px;
+}
+
+.details_holder_grid .auction-details1 li p
+{
+	float:right;
+}
+
+
+#footer-widget-area .widget-area {
+float: right;
+}
+
+
+a.top_link:link, a.top_link:visited
+{
+	margin-right:5px;
+	font-family:'alef hebrew', Helvetica, sans-serif;
+}
+
+
+a.nice_link:link, a.nice_link:visited
+{
+	margin-right:2px;
+	font-family:'alef hebrew', Helvetica, sans-serif;
+}
+
+
+.post-new3 li
+{
+	float:right;
+}
+
+.post-new3 li h2
+{
+	float:right;
+	font-family:'alef hebrew',Arial, Helvetica, sans-serif
+}
+
+.post-new3 li p
+{
+	float:right;
+}
+
+.post-new5
+{
+	margin-right:20px;
+}
+
+.post-new5 li
+{
+	float:right;
+}
+
+.post-new5 li h2
+{
+	float:right;
+}
+
+.post-new5 li p
+{
+	float:right;
+}
+
+
+
+.txt-align-lft
+{
+	text-align:right !important;
+}
+.post-new
+{
+	margin-right:20px;
+	margin-left:15px;
+}
+
+.post-new li
+{
+	float:right;
+}
+
+.post-new li h2
+{
+	float:right;
+	width:98%;
+	font-family:'alef hebrew',Arial, Helvetica, sans-serif
+}
+
+.post-new li p
+{
+	float:right;
+	padding:0 0 0 20px;
+}
+
+.post-new2
+{
+	margin-right:20px
+}
+
+
+.post-new2 li
+{
+	float:right;
+}
+
+.post-new2 li h2
+{
+	float:right;
+
+}
+
+.post-new2 li p
+{
+	float:right;
+}
+
+
+.image_holder_grid
+{
+	float:right;
+}
+
+
+
+.image_holder
+{
+	float:right;
+}
+
+.image_holder2
+{
+	float:right;
+}
+
+h2.title-hold 
+{font-family:'alef hebrew', Arial, Helvetica, sans-serif;
+}
+
+.title_holder
+{
+	float:right;
+}
+
+.title_holder_grid
+{
+	float:right;
+}
+
+.title_holder3
+{
+	float:right;
+}
+
+
+.title_holder2
+{
+	float:right;
+	text-align:right
+
+}
+
+
+.details_holder
+
+{
+	float:right;
+}
+
+
+.details_holder_grid
+{
+	float:right;
+}
+
+
+.details_holder3
+{
+	float:right;
+}
+
+.user-profile-avatar { float:left;margin-left:-13px; }
+.user-profile-description {
+width:54%;
+text-align:justify;
+margin-right:5px;
+position:relative;
+clear:left;
+float:right;
+ }
+
+
+.image-gallery
+{
+	margin-right: 0px;
+}
+
+.image-gallery li
+{
+	float:right;
+	margin-left:5px;
+	margin-right: 0px;
+	
+}
+.other-dets li{
+	float:right;
+}
+
+.other-dets li img{
+float:right;
+margin-left:4px;
+
+	
+}
+
+.other-dets li h3{
+	float:right;
+}
+
+.other-dets li p{
+	float:right;
+}
+
+.other-dets5 li{
+	float:right;
+}
+
+.other-dets5 li img{
+float:right;
+margin-left:4px;
+
+	
+}
+
+.other-dets5 li h3{
+	float:right;
+	width:65px;
+}
+
+.other-dets5 li p{
+	float:right;
+}
+
+
+.other-dets6 li{
+	float:right;
+}
+
+.other-dets6 li img{
+float:right;
+margin-left:4px;
+
+	
+}
+
+.other-dets6 li h3{
+	float:right;
+}
+
+.other-dets6 li p{
+	float:right;
+}
+
+
+.tags-placeholder .tg1 { float:right;margin-right:10px; }
+.tags-placeholder .tg2 { float:right; }
+.tags-placeholder .tg3 { float:left; text-align:left; }
+.addthis_toolbox { text-align:left }
+.clear5 {float:left; }
+
+
+#my-account-admin-menu li
+{
+	font-family:'alef hebrew', Helvetica, sans-serif;
+	padding-right:14px;
+	background: url('images/bullet.png') no-repeat 100% 5px;   
+
+	
+}
+
+
+#my-account-admin-menu li a:link, #my-account-admin-menu li a:visited
+{
+ 	padding: 5px 5px 5px 15px; 
+	margin-right:3px;
+	font-family:'alef hebrew',Arial, Helvetica, sans-serif;
+	text-align:right;
+}
+
+
+.account-right-sidebar
+{
+	float:right !important;	
+}
+
+.account-content-area
+{
+	float:left !important;		
+}
+
+/* ------------------ */
+
+#my-account-admin-menu_seller li
+{
+	font-family:'alef hebrew', Helvetica, sans-serif;
+	padding-right:14px;
+	background: url('images/bullet.png') no-repeat 100% 5px; 
+}
+
+
+#my-account-admin-menu_seller li a:link, #my-account-admin-menu_seller li a:visited 
+{
+	padding: 5px 5px 5px  15px; 
+	margin-right:3px;
+	font-family:'alef hebrew',Arial, Helvetica, sans-serif;
+	text-align:right;
+}
+
+#my-account-admin-menu_buyer li
+{
+	font-family:'alef hebrew', Helvetica, sans-serif;
+	padding-right:14px;
+	background: url('images/bullet.png') no-repeat 100% 5px; 
+}
+
+
+#my-account-admin-menu_buyer li a:link, #my-account-admin-menu_buyer li a:visited
+{
+ 	padding: 5px 5px 5px 15px; 
+	margin-right:3px;
+	font-family:'alef hebrew',Arial, Helvetica, sans-serif;
+	text-align:right;
+}
+
+
+.nav a.activee:link, .nav a.activee:visited
+{
+	margin-right:3px;
+}
+
+.nav a:link, .nav a:visited
+{
+	margin-right:3px;
+}
+
+
+a.go_back_btn:link, a.go_back_btn:visited {
+
+	margin-right:3px;
+	font-family:'alef hebrew', Helvetica, sans-serif
+}
+
+
+
+
+a.edit_auction_pay_cls:link, a.edit_auction_pay_cls:visited {
+	margin-right:3px;
+	font-family:'alef hebrew', Helvetica, sans-serif;
+}
+
+
+a.post_bid_btn:link, a.post_bid_btn:visited 
+{
+	margin-right:3px;
+	font-family:'alef hebrew',Arial, Helvetica, sans-serif;
+		margin-top:12px;
+		margin-bottom:12px;
+}
+
+
+a.post_bid_btn_err:link, a.post_bid_btn_err:visited 
+{
+	margin-right:3px;
+	font-family:'alef hebrew', Helvetica, sans-serif;
+}
+
+
+.slider-title
+{
+	font-family:'alef hebrew', Arial, Helvetica, sans-serif;
+}
+
+.slider-post
+{
+	float:right;
+ 	font-family:'alef hebrew', Arial, Helvetica, sans-serif;
+}
+
+a.slider-controls:link, a.slider-controls:visited {
+	margin-right:3px;
+	font-family:'alef hebrew', Helvetica, sans-serif
+}
+
+
+.latest-posted-ads-big h3
+{
+    font-family: 'alef hebrew',Helvetica,sans-serif;
+}
+
+
+#location-stuff
+{
+	float:right;
+}
+
+#location-stuff li h3 
+{
+	margin-right:3px
+}
+
+#location-stuff li img 
+{
+	float:right;
+	margin-left:7px
+}
+	
+#location-stuff li ul
+{
+	float:right;
+}
+
+#location-stuff ul li
+{
+	margin-right:38px;
+	padding-right: 15px;
+background: url('images/bul.png')  no-repeat 100%;
+
+}
+
+#location-stuff li ul li.top-mark
+{
+
+	margin-right:8px;
+	padding-right: 10px;
+	background: url('images/bullet-cat.png') no-repeat 100%;
+}
+.see-more-tax
+{
+	float:right;
+}
+
+
+
+.blog-image
+{
+	margin-left:10px;
+}
+
+  
+.widget-container
+{
+	text-align:right;	
+}
+
+
+#result {
+
+	font-family:'alef hebrew', Helvetica, sans-serif;
+}
+
+.suggestionsBox {
+	position: absolute;
+	right: 48px;
+	left:32px;
+	/*top:40px;*/
+	margin: 62px 0px 0px 0px;
+	width: auto;
+	padding:0 10px 10px;
+	background-color: #333;
+	border-top: 3px solid #333;
+	color: #fff;
+	border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	direction:rtl;
+}
+
+.suggestionList ul li h2 {float:right; }
+.suggestionList ul li p {float:right;}
+
+
+.suggestionList ul li {
+	text-align:right;
+}
+
+
+#suggest {
+
+	right:0px;
+}
+
+
+a.green_btn:link, a.green_btn:visited 
+{
+	margin-right:3px;
+	font-family:'alef hebrew',Arial, Helvetica, sans-serif;
+}
+
+
+.error2
+{
+	 float:right;
+}
+
+.tripp { float:right; }
+
+
+#footer .textwidget
+{text-align:right; }
+
+
+
+.stuffa1
+{
+	float:right;
+}
+
+.stuffa2
+{
+	float:right;
+}
+
+.stuffa3
+{
+	float:right;
+}
+
+.stuffa4
+{
+	float:right;
+}
+
+
+.stuffa5
+{
+	float:right;
+}
+
+
+.featured-one
+{
+	background:url('images/featured.png')  no-repeat 100%;
+	width:56px;
+	height:58px; top :8px;
+	position:absolute	
+
+}
+
+
+
+.featured-two
+{
+	background:url('images/featured1.png')  no-repeat 100%;
+	width:46px;
+	height:43px; 
+	top:-5px; 
+	right:5px;
+	position:absolute	;
+	pointer-events: none;
+	background-size:80%;
+}
+
+
+
+.featured-three
+{
+	background:url('images/featured1.png')  no-repeat 100%;
+	width:46px;
+	height:43px; 
+	top:-7px; 
+	right:-2px;
+	position:absolute	;
+	pointer-events: none;
+	background-size:75%;
+}
+
+
+.login-submit-form p label
+{
+	float:right;
+	font-family:'alef hebrew',Arial, Helvetica, sans-serif
+}
+.fbc_loginstate_top { display:none }
+.fb_login_head
+{
+	text-align:left;
+}
+
+.fbc_connect_button_area { float:left; }
+
+.submit_bottom
+{
+	font-family: 'alef hebrew',Arial, Helvetica, sans-serif;
+	margin:8px 0 0 8px;
+	border:1px solid #333333;
+	padding:2px 5px;
+}
+
+
+.submit_bottom2
+{
+ 	font-family: 'alef hebrew',Arial, Helvetica, sans-serif;
+	margin:5px 0 0 5px;
+}
+
+.main_thing_pst_new{
+	text-align:right;
+
+}
+
+.special_breadcrumb {
+	border-radius: 5px 0px 0 5px;
+}
+
+post-new-choose-tax { float:right; text-align:right; }
+
+a.goback-link:link, a.goback-link:visited { margin-left:15px; }
+a.pay_now:link, a.pay_now:visited {margin-left:15px; }
+
+.go-back-post-new { float:right;}
+
+.stretch-area { 
+	text-align:right;
+ }
+ 
+ 
+  
+ .watch-list{
+	margin-right:-4px;	
+ }
+ 
+.banner_1 img
+	{
+		display:inline !important
+	}
+
+
+@media only screen and (min-width: 980px) {
+	.banner_1
+	{
+		text-align:left;	
+	}
+	
+}
+ 
+
+
+	
+@media only screen and (max-width: 1025px) {
+	
+	#footer-widget-area li { padding-left:10px; padding-right:10px }
+	#steps ul li { margin-left:6px; padding:5px}
+}
+
+
+@media only screen and (max-width: 500px) {
+	
+	#steps ul li
+	{
+		margin-left:15px;
+	}
+	#steps ul li { margin-left:6px;}
+	#header #logo {float:left;}
+  
+}
+
+ 
+ 
+ /*bootstrap.min.css----start*/
+
+.col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-4, .col-lg-5, .col-lg-3, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9 {float:right;}
+
+th{
+text-align:right;
+}
+
+p {margin:0 10px 5px 10px;}
+
+/*bootstrap.min.css----end*/
+
+/*menu.css----start*/
+#item_main_menus {font: normal 12px 'alef hebrew', Arial, sans-serif;}
+  
+#cssmenu2 > ul > li, #cssmenu > ul > li { float: right !important ; direction: rtl;}
+ #cssmenu2 ul ul li { direction: rtl;   float: right !important ;text-align:center; }
+
+/*menu.css----end*/
+
+.box_content{
+padding: 10px 20px 20px;
+}
+
+.stretch-area .widget-container, #right-sidebar .widget-container, #content .widget-container, #left-sidebar .widget-container {
+padding:5px 5px 10px;
+}
+
+.slider-post {
+	width:193px;
+	float:right;
+	font-family:'alef hebrew',Arial, Helvetica, sans-serif;
+}
+
+#confirmBox {
+direction:rtl;
+}
+
+#confirmBox .button {
+font:17px/33px 'alef hebrew',"Lucida Sans Unicode","Lucida Grande",sans-serif;
+margin-left:15px;
+padding:0 40px 0 35px;
+}
+
+.do_input {
+margin: 0 0 8px;
+}
+
+.login-submit-form p {
+padding: 0 0 12px;
+}
+
+.login-submit-form p label {
+padding:5px 0;
+}
+
+.bid_panel_err {
+margin-bottom:12px;
+}
+
+.bid_panel_ok {
+margin-bottom:12px;
+}
+
+.my_search_placeholder_box {
+float:left;
+}
+#logo-divs { float:right !important  }
+#search_button { float:left !important  }
+
+[class*="span"] {
+margin-right:20px;
+float:right;
+}
+
+.table th, .table td {
+text-align:right;
+}
+
+.attachment-75x65, .attachment-50x50, .attachment-normal-auction-thumb, .attachment-42x42
+{
+	border:1px solid #ddd; 
+	margin:2px;
+	background:#fff;
+	height:54px;
+	width:54px;
+	padding:2px;
+}
+
+#big-search
+{
+	border:2px solid #ccc;
+	padding:15.7px; 
+	background: #fff;
+	border-radius:0 5px 5px 0px;
+	font-size:15px;
+	width:90%; 
+	color:#888;
+	font-family:'alef hebrew', Helvetica, sans-serif;	
+	margin:0 0 0 -54px;
+
+}
+
+#search_button
+{
+	width:100%;
+	color:#fff;
+	font-weight:600;
+	font-size:17px;
+	border:0;
+	cursor:pointer;
+	padding:16px 25px 16px 25px;
+	margin-left:-3px;
+	border-radius: 5px 0px 0 5px;
+	font-family:'alef hebrew', Helvetica, sans-serif;	
+}
+
+/*--------------------------חדשים--------------------*/
+
+.fileinput-button {
+margin-left:4px;
+float:right;
+
+}

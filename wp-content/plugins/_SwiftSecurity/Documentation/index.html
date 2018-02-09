@@ -1,0 +1,143 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<head lang="en">
+	<meta http-equiv="content-type" content="text/html;charset=utf-8">
+	<title>Swift Security Documentation</title>
+	<!-- Framework CSS -->
+	<link rel="stylesheet" href="assets/blueprint-css/screen.css" type="text/css" media="screen, projection">
+	<link rel="stylesheet" href="assets/blueprint-css/print.css" type="text/css" media="print">
+	<!--[if lt IE 8]><link rel="stylesheet" href="assets/blueprint-css/ie.css" type="text/css" media="screen, projection"><![endif]-->
+	<link rel="stylesheet" href="assets/blueprint-css/plugins/fancy-type/screen.css" type="text/css" media="screen, projection">
+	<style type="text/css" media="screen">
+		p, table, hr, .box { margin-bottom:25px; }
+		.box p { margin-bottom:10px; }
+	</style>
+</head>
+
+
+<body>
+	<div class="container">
+	
+		<h3 class="center alt">&ldquo;Swift Security&rdquo; Documentation by &ldquo;SWTE&rdquo; v1.4.2</h3>
+		
+		<hr>
+		
+		<h1 class="center">&ldquo;Swift Security&rdquo;</h1>
+		
+		<div class="borderTop">
+			<div class="span-6 colborder info prepend-1">
+				<p class="prepend-top">
+					<strong>
+					Created: 11/2/2015<br>
+					By: SWTE<br>
+					Email: <a href="mailto:support@swte.ch">support@swte.ch</a>
+					</strong>
+				</p>
+			</div><!-- end div .span-6 -->		
+	
+			<div class="span-12 last">
+				<p class="prepend-top append-0">Thank you for purchasing our plugin. If you have any questions that are beyond the scope of this help file, please feel free to email us via our user page contact form <a href="http://themeforest.net/user/swte">here</a>.</p>
+			</div>
+		</div><!-- end div .borderTop -->
+		
+		<hr>
+		
+		<h2 id="toc" class="alt">Table of Contents</h2>
+		<ol class="alpha">
+			<li><a href="#Overview">Overview</a></li>
+			<li><a href="#Quickstart">Quickstart</a></li>
+			<li><a href="#HideWordpress">Hide Wordpress module</a></li>
+			<li><a href="#Firewall">Firewall module</a></li>
+			<li><a href="#CodeScanner">Code Scanner module</a></li>
+		</ol>
+		
+		<hr>
+		
+		<h3 id="Overview"><strong>A) Overview</strong> - <a href="#toc">top</a></h3>
+		<p>With the Swift Security plugin you can make your Wordpress website more secure with a single click. A great advantage of the plugin is that you don't need any special technical knowledge.</p>
+		<p>The plugin consists of three main parts:</p>
+		<ul>
+			<li><a href="#HideWordpress">Hide Wordpress module</a></li>
+			<li><a href="#Firewall">Firewall module</a></li>
+			<li><a href="#CodeScanner">Code Scanner module</a></li>
+		</ul>
+		<p>Swift Security is compatible with most plugins, however, it would be difficult to test it in combination with all plugins. Should you have any problems with the plugin, do not hesitate to contact us! We believe that one of the most important factors when publishing a plugin, is the continuous support, thus, we strive to reply to all questions within 1-2 hours, but within 24 hours at the latest. Eventual bugs and incompatibilities are fixed according to the followings:</p>
+		<ul>
+			<li><b>Critical bugs: within 24 hours</b> <i>all bugs which cause the crash of the plugin or the website</i></li>
+			<li><b>Serious bugs: within 24 hours</b> <i>all bugs which cause unexpected consequences (which don't cause the crash of the plugin)</i></li>
+			<li><b>Compatibility bugs: within 72 hours</b> <i>all bugs which are caused due to conflicts with other plugins</i></li>
+			<li><b>Appearance bugs: within 1 week</b> <i>all bugs which do not influence the proper operation of the plugin, however, it is an appearance issue (e.g.: a tooltip fails to appear properly on the admin dashboard)</i></li>			
+		</ul>
+		
+		<img src="assets/images/dashboard.png" alt="Dashboard" />
+		
+		<hr>
+		
+		<h3 id="Quickstart"><strong>A) Quickstart</strong> - <a href="#toc">top</a></h3>
+		<p>You can secure your site with the following simple steps:</p>
+		<ol>
+			<li>Login to your WordPress admin</li>
+			<li>Click on Plugins in the menu</li>
+			<li>Click on the Add new button at the top of the page</li>
+			<li>Click on the Upload button at the top of the page</li>
+			<li>Browse the downloaded .zip file and click on the Install now button</li>
+			<li>Click on the Activate Plugin link</li>
+			<li>That's all! Your WordPress is secure now!</li>
+			<li>If you want to customize the plugin, just click on Swift Security in the WordPress admin menu</li>
+		</ol>
+		
+		<hr>
+
+		<h3 id="HideWordpress"><strong>B) Hide Wordpress module</strong> - <a href="#toc">top</a></h3>
+		<p>With the Hide Wordpress module you can hide the fact that your website uses WordPress. <b>The Hide Wordpress module will not change the original file structure, it will only hide it.</b> From a security perspective this is extremely useful, because malicious users can exploit known plugin or theme vulnerabilities to hack your WordPress website.</p> 
+		<p>In the Hide Wordpress menu you can rename your original filepath. E.g.: you can rename your wp-content/uploads/ directory to files/ or your wp-admin directory to administrator/. Thus, a malicious user is unable to find the admin URL.</p>
+		<p>By default, the module blocks the direct PHP script access, thus, a malicious user is unable to determine that you are using WordPress. Without the plugin, by writing yoursite.com/wp-config.php in your browser an empty page will appear, however, you will not receive a 404 file not found error message and the attacker is able to figure it out that you are using WordPress. Certainly, you can provide exceptions, thus, if for whatever reason you need to whitelist a php file, you can do this.</p>
+		<p>With the Hide Wordpress module you can rename your installed plugins, thus, hiding the fact that you are using Wordpress.</p>
+		<p>The module enables you to change any text in your HTML, CSS or Javascript source (will not change the original file, only bypass it).</p>
+		<p>With the Hide Wordpress you can minify your CSS and Javascript files and you can remove comments, thus, it cannot be determined which theme or plugin you are using (will not change the original file, only bypass it).</p>
+		<img src="assets/images/hide.png" alt="Hide Wordpress module" />
+
+		<hr>
+
+		<h3 id="Firewall"><strong>C) Firewall module</strong> - <a href="#toc">top</a></h3>
+		<p>With the Firewall module you can prevent the most common attack attempts:</p>
+		<h4>SQL injection</h4>
+		<p>In case of vulnerable plugins or themes you can prevent attackers to exploit eventual SQL injection security vulnerabilities.</p>
+		<h4>Cross-site scripting (XSS)</h4>
+		In case of vulnerable plugins or themes you can prevent attackers to exploit eventual XSS injection security vulnerabilities.</p>
+		<h4>File path manipulation</h4>
+		<p>You can prevent attackers to exploit eventual file path errors (for example a script uses relative paths for reading or writing a file, and the attacker by using ../ characters can reach files for which he shouldn't have permission.</p>
+		<h4>Malicious file uploads</h4> 
+		<p>It could happen that you may need to allow users to upload files on your website. In this case, if the file upload is not properly developed, an attacker - in lieu of the originally permitted file formats - can upload scripts, which once executed can obtain data or can take control over your website (and may use your server for sending SPAM).</p>
+		<p>With the Firewall File upload filter you can prevent an attacker from uploading executable, malicious scripts.</p>
+		<p>You can easily set the security level of the Firewall with the help of the slider, and if you are an advanced user, you can provide custom settings under the Advanced settings tab.</p>
+		<h4>IP/Geo Filters</h4>
+		<p>You can set filters based on IP addresses or specific countries. For example you can set a filter so that the WP admin can only be accessed from the USA. Also, you can block visits from specific countries.</p> 
+		<h4>Push notifications</h4>
+		<p>With the help of pushover.net you can get real time updates about actions related to your website: successful login, unsuccessful login, hacking attempts, and receive scan reports from the pre-scheduled Code Scanner.</p>
+		<h4>Anti-Brute Force</h4>
+		<p>With the new anti-brute force feature you can protect your site from different brute-force attacks: password hackings, SQL injections or XSS attempts. You can set the maximum number of tolerated attempts. Once this number is reached, the system will automatically block the IP address in question.</p>
+		<h4>Comment spam blocker</h4>		
+		<p>The built-in comment spam blocker put all spam comment to the spam folder without captcha</p>
+
+		<img src="assets/images/fw.png" alt="Firewall module" />
+		
+		<hr>
+		
+		<h3 id="CodeScanner"><strong>D) Code Scanner module</strong> - <a href="#toc">top</a></h3>
+		<p>With the help of the Code Scanner you can scan all files and thus you can find all previously uploaded malicious files which were uploaded on your server by an attacker before the installation of the plugin. You can run the Code Scanner automatically at certain time intervals, thus, if an attacker succeeds in uploading a malicious code to your server (e.g. because he gained access to it through the hosting provider or has obtained the FTP or SSH login credentials) you can automatically quarantine these. Also, you will receive a report with the results of the scan.</p> 
+		<p>Besides these, the Code Scanner checks the security of certain basic settings and provides useful advice should it find any problems.</p>
+		<p>Certainly, it may happen that the Code Scanner gives a false positive alert for a legit file, in this case you can whitelist it, thus, for this file you will no longer receive false positive alerts. The Code Scanner module is continuously updated. You should always download the updated version to avoid false positive alerts.</p>
+		
+		<img src="assets/images/scanner.png" alt="Code Scanner module" />
+		
+		<hr>
+		
+		<p>Once again, thank you so much for purchasing this plugin. As we previously mentioned, we would be glad to help you if you have any questions related to this plugin. If you have a more general question related to the plugin on CodeCanyon, you might consider visiting the forums and asking your question in the "Item Discussion" section.</p> 
+		
+		<p class="append-bottom alt large"><strong>SWTE</strong></p>
+		<p><a href="#toc">Go To Table of Contents</a></p>
+		
+		<hr class="space">
+	</div><!-- end div .container -->
+</body>
+</html>

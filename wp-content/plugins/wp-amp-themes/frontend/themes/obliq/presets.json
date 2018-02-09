@@ -1,0 +1,55 @@
+{
+    "name": "Obliq",
+    "labels": [
+        "Content text",
+        "Post title color",
+        "Post meta info color",
+        "Category label text color",
+        "Category label background color",
+        "Side menu icons color",
+        "Side menu background color",
+        "Side menu text color",
+        "Article background color",
+        "Header background color ( for posts with no featured image )",
+        "Twitter icon background color",
+        "Facebook icon background color",
+        "G+ icon background color",
+        "Pinterest icon background color",
+        "Email icon background color"
+    ],
+    "vars": [
+        "base_text_color",
+        "post_title_text_color",
+        "post_meta_text_color",
+        "label_text_color",
+        "label_bg_color",
+        "icons_color",
+        "sidemenu_bg_color",
+        "sidemenu_text_color",
+        "article_bg_color",
+        "header_bg_color",
+        "twitter_bg_color",
+        "fb_bg_color",
+        "gplus_bg_color",
+        "pinterest_bg_color",
+        "email_bg_color"
+
+    ],
+    "presets": [
+      "#4a4a4a",
+      "#4a4a4a",
+      "#4a4a4a",
+      "#ffffff",
+      "#63a9dd",
+      "#4a4a4a",
+      "#f0f0f0",
+      "#000",
+      "#ffffff",
+      "#ffffff",
+      "#55acee",
+      "#3b5998",
+      "#dc4e41",
+      "#bd081c",
+      "#000"
+    ]
+}

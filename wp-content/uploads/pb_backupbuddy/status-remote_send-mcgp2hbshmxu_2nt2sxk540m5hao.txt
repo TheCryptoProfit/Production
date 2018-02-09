@@ -1,0 +1,21 @@
+{"event":"details","time":1517668960,"u":"91","run":"0.66","mem":"53.87","data":"----- Initiating master send function for BackupBuddy v6.5.0.16. Post-send deletion: "}
+{"event":"details","time":1517668960,"u":"91","run":"0.66","mem":"53.87","data":"Created fileoptions lock file `\/var\/www\/html\/wordpress\/wp-content\/uploads\/pb_backupbuddy\/fileoptions\/send-mcgp2hbshmxu.txt.lock` with ID: 5a75ca60e08ec1.48103408."}
+{"event":"details","time":1517668960,"u":"92","run":"0.66","mem":"53.87","data":"Fileoptions saved. 876 bytes written."}
+{"event":"details","time":1517668960,"u":"92","run":"0.66","mem":"53.87","data":"Initializing destination."}
+{"event":"details","time":1517668960,"u":"92","run":"0.66","mem":"53.87","data":"Loading destination init file `\/var\/www\/html\/wordpress\/wp-content\/plugins\/backupbuddy\/destinations\/email\/init.php`."}
+{"event":"details","time":1517668960,"u":"92","run":"0.66","mem":"53.87","data":"Destination init loaded."}
+{"event":"details","time":1517668960,"u":"92","run":"0.66","mem":"53.87","data":"Initialized `email` destination."}
+{"event":"details","time":1517668960,"u":"92","run":"0.66","mem":"53.87","data":"Applying destination-specific defaults."}
+{"event":"details","time":1517668960,"u":"92","run":"0.66","mem":"53.87","data":"Applying global destination defaults."}
+{"event":"details","time":1517668960,"u":"92","run":"0.66","mem":"53.87","data":"Calling destination-specific send method."}
+{"event":"details","time":1517668960,"u":"92","run":"0.66","mem":"53.87","data":"Sending remote email."}
+{"event":"details","time":1517668961,"u":"05","run":"0.79","mem":"58.90","data":"Sent remote email."}
+{"event":"details","time":1517668961,"u":"05","run":"0.79","mem":"58.90","data":"Completed send function. Success."}
+{"event":"details","time":1517668961,"u":"05","run":"0.79","mem":"58.90","data":"About to load fileoptions data."}
+{"event":"details","time":1517668961,"u":"05","run":"0.79","mem":"58.90","data":"Fileoptions instance #16."}
+{"event":"details","time":1517668961,"u":"05","run":"0.79","mem":"58.90","data":"Created fileoptions lock file `\/var\/www\/html\/wordpress\/wp-content\/uploads\/pb_backupbuddy\/fileoptions\/send-mcgp2hbshmxu.txt.lock` with ID: 5a75ca610cc8c5.27936604."}
+{"event":"details","time":1517668961,"u":"05","run":"0.79","mem":"58.90","data":"Fileoptions data loaded."}
+{"event":"details","time":1517668961,"u":"05","run":"0.80","mem":"58.90","data":"Post-send deletion not enabled."}
+{"event":"details","time":1517668961,"u":"05","run":"0.80","mem":"58.90","data":"Sending finished destination send email notification."}
+{"event":"details","time":1517668961,"u":"05","run":"0.80","mem":"58.90","data":"Sending email schedule notification. Subject: `BackupBuddy File Send Finished - http:\/\/www.thecryptoprofit.com`; body: `A destination file send of file \/var\/www\/html\/wordpress\/wp-content\/uploads\/backupbuddy_backups\/backup-www_thecryptoprofit_com-2018_02_03-02_26pm-database_only_db-10r584a3hr.zip has finished with BackupBuddy v6.5.0.16 on Sat, 03 Feb 18 14:42:41 +0000 for the site http:\/\/www.thecryptoprofit.com.\r\n\r\nDetails:\r\n\r\nDestination send complete to Email`; recipient(s): `info@thecryptoprofit.com`."}
+{"event":"details","time":1517668961,"u":"13","run":"0.87","mem":"58.90","data":"Ending send() function pass."}

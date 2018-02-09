@@ -1,0 +1,28 @@
+<p><strong><?php echo __( "Notice: shortcodes are case-sensitive." ); ?></strong></p>
+<article class="cm-shortcode-desc">
+    <header>
+        <h4>[cm_ad_changer]</h4>
+        <span>CM AdChanger Ad</span>
+    </header>
+    <div class="cm-shortcode-desc-inner">
+        <h5>Parameters:</h5>
+        <ul>
+            <li><strong>campaign_id</strong> - ID of a campaign (required*)</li>
+            <li><strong>group_id</strong> - ID of a campaign group (required*)</li>
+            <li><strong>linked_banner</strong> - Banner is a linked image or just image. Can be 1 or 0 (default: 1)</li>
+            <li><strong>debug</strong> - Show the debug info. Can be 1 or 0 (default: 0)</li>
+            <li><strong>wrapper</strong> -  Wraps the banner with a div tag. Can be 1 or 0 (default: 0)</li>
+            <li><strong>class</strong> -  Allows to select the HTML class name for the banner.</li>
+            <li><strong>no_responsive</strong> -  Disable the banner responsiveness. Can be 1 or 0 (default: 0)</li>
+            <li><strong>custom_css</strong> -  The CSS code which would only be outputted if the banner is shown. (default: empty)</li>
+            <li><strong>allow_inject_js</strong> -  Whether to allow server to inject JS or not. Can be 1 or 0 (default: 0)</li>
+            <li><strong>allow_inject_html</strong> -  Whether to allow server to send the HTML Ads or not. Can be 1 or 0 (default: 0)</li>
+            <li><strong>width</strong> -  Width of the banner image (default: auto)</li>
+            <li><strong>height</strong> -  Height of the banner image (default: auto)</li>
+            <li><strong>* - You have to provide either a Group ID or a Campaign ID</strong></li>
+        </ul>
+        <h5>Example</h5>
+        <p><kbd>[cm_ad_changer campaign_id="1" class="CM Ad" debug="1"]</kbd></p>
+        <p>Shows the banner/banners from the selected Campaign or Group of Campaigns.</p>
+    </div>
+</article>

@@ -1,0 +1,34 @@
+::-webkit-input-placeholder {
+    color: #ccc;
+}
+:-moz-placeholder {
+    color: #ccc;
+}
+::-moz-placeholder {
+    color: #ccc;
+	opacity: 1;
+	/* Since FF19 lowers the opacity of the placeholder by default */
+}
+:-ms-input-placeholder {
+    color: #ccc;
+}
+
+/** 
+ * Message
+ */
+.wi-message {
+    padding: 20px;
+    font-size: 12px;
+    background: white;
+    border: 1px solid #53BB6B;
+}
+
+/** 
+ * Heading
+ */
+.wi-customize-heading h2 {
+    text-transform: uppercase;
+    border-bottom: 1px solid;
+    padding-bottom: 5px;
+    font-size: 14px;
+}
